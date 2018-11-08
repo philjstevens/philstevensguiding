@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+
+<!-- banner Start -->
+<section id="blogpost-header">
+  <div class="container" style="background:url(' {{ .Params.header_image }} ') no-repeat; background-size:cover; width:inherit; padding: 200px 0px 157px 0px; background-attachment:fixed; background-position:center;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Params.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	<div class="post" style="padding-top:30px">
+	  <!-- Wrapper Start -->
+	  <section id="blogpost-intro">
+	    <div class="container">
+	      <div class="row">
+	        <div>
+	          <div class="block">
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></p>
+	            </div>
+	            <p>{{ .Content }}</p>
+	          </div>
+	        </div><!-- .col-md-7 close -->
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<div>{{ partial "disqus.html" . }}</div>	
+	<div>
+	  <a class="link-h2" href="{{ $.Site.BaseURL }}/blog">Back to blog</a>
+	</div>
+	
+
+	
+	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+		{{ partial "call-to-action.html" . }}
+	{{ end }}
+
+	{{ partial "footer.html" . }}
+</body>
+</html>

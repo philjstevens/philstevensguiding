@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+
+<section id="blog-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Site.Params.blog.title }}</h1>
+          <h4>{{ .Site.Params.blog.subtitle }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+	<section id="blog-section">
+			<div class="container">
+			<div class="row">
+				{{ range (.Paginator 6).Pages }}
+				<div class="col-md-6">
+					<article id="blog-summary">
+						<div class="row" style="padding-top:30px">
+							<div class="col-sm-6">
+								<p>{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}<p>
+								<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
+							</div>
+						{{ with .Params.image }}
+							<div class = "col-sm-6">
+								<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+							</div>
+						</div>
+						<div class="row" style="padding:15px 0px 30px 0px">
+						<div class="col-sm-6">
+						<p>{{ .Params.Subtitle }}</p>
+						</div>
+						<div class="col-sm-6">
+						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
+						</div></div>
+					</article>
+				</div>
+				{{ end }}
+			</div>
+			<div class="col-12 text-center">
+				{{ template "_internal/pagination.html" . }}
+			</div>
+		</div>
+	</section>
+	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+		{{ partial "call-to-action.html" . }}
+	{{ end }}
+	{{ partial "footer.html" . }}
+
+</body>
+</html>

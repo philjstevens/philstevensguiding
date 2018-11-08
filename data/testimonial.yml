@@ -1,0 +1,45 @@
+enable: true
+title: What our clients say about their experience with Phil
+
+  
+numbers:
+  - icon: ion-ios-chatboxes-outline
+    counter: 2000
+    text: Cups of Coffee
+  - icon: ion-ios-glasses-outline
+    counter: 2000
+    text: Cups of Coffee
+  - icon: ion-ios-compose-outline
+    counter: 2000
+    text: Cups of Coffee
+  - icon: ion-ios-timer-outline
+    counter: 2000
+    text: Cups of Coffee
+
+people:
+
+  - text: >
+      You were great company and importantly, you kept me safe... But at the same time you helped me push myself to do things and get to places I could only dream of.
+    image: img/testimonial/heather.jpg
+    name: Heather
+    course: Scrambling, Skye Cuillin
+  - text: >
+      The Aonach Eagach was brill yesterday, we can't thank you enough!
+    image: img/testimonial/bankscrop.jpg
+    name: Lizzie & John
+    course: Aonach Eagach
+  - text: >
+      Thank you for the instruction and the company - I had a lovely few days!
+    image: img/testimonial/gabysquare.jpg
+    name: Gaby
+    course: Scrambling, Skye Cuillin	
+  - text: >
+      You were an excellent guide, I felt everything was under control and safe at all times. I feel very lucky to have achieved both of summits I wanted.
+    image: img/testimonial/inayat1298.jpg
+    name: Inayat
+    course: Inaccessible Pinnacle and The Cioch, Isle of Skye
+  - text: >
+      Thanks for a great day yesterday. I've now got lots of the information I wanted, and feel much more confident with my gear placements!
+    image: img/testimonial/alan.jpg
+    name: Alan
+    course: Learn to Lead, Glen Nevis

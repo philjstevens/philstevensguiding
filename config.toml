@@ -1,0 +1,120 @@
+title = "Phil Stevens Guiding"
+baseURL = "//philjstevens.github.io/"
+languageCode = "en-us"
+
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "About Phil"
+    url = "/about"
+  [[menu.header]]
+    weight = 3
+    name = "Blog"
+    url = "/blog"
+  [[menu.header]]
+    weight = 4
+    name = "Contact"
+    url = "/contact"
+ 
+
+  [[menu.footer]]
+    weight = 1
+    name = "About Phil"
+    url = "/about"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact"
+    url = "/contact"
+  [[menu.footer]]
+    weight = 3
+    name = "Blog"
+    url = "/blog"
+ 
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  date_format = "2 January 2006"
+
+  home = "Home"
+
+  inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
+  
+  disqusShortname = "philstevensguiding"
+	
+  [params.slider]
+    enable = true
+    title = "Phil Stevens Guiding"
+    subtitle = "Climbing<br/>Scrambling<br/>Mountaineering"
+
+  [params.wrapper]
+    enable = true
+    title = "Delivering year-round professional mountain guiding and instruction in the West Highlands and beyond"
+    italic = "Whether you'd like to learn how to move safely through technical terrain, want a guide to help you traverse the Skye Cuillin, or are stuck in a rut with your climbing grade and need some coaching, Phil Stevens Guiding can help you achieve your goals in the mountains."
+	paragraph = "I offer bespoke private guiding and instruction, with objectives and content tailored to meet your specific needs - after all, everyone's different. If you'd like to talk more about your aspirations or make a booking, please get in touch with me."
+  
+  [params.blog]
+    enable = true
+    title = "The Latest"
+    subtitle = "Adventures, gear and ideas - welcome to the blog"
+	
+  [params.about]
+    enable = true
+	title = "About Phil"
+    subtitle = "An introduction to your guide"
+	intro = "Hello and welcome"
+	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm also a full member of the Association of Mountaineering Instructors."
+	paragraph1 = "I live in North Connel, near the small harbour town of Oban. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in various mountainous places including Wales, Norway and Antarctica - the latter as a Field Guide for the British Antarctic Survey - but Scotland is where I call home."
+	paragraph2 = "I qualified as a Mountaineering Instructor in 2010, and spent several years working as a climbing instructor at the National Ice Climbing Centre and as a senior instructor at the Outward Bound Trust. Like many freelance guides, when I'm not out with my own clients I also work for a few local reputable guiding companies as an associate instructor."
+	
+  [params.feature]
+    enable = true
+    title = "Phil Stevens"
+	paragraph1 = "I’m a professional mountaineer based near Oban in the West Highlands of Scotland. I am a qualified climbing and mountaineering instructor, and an experienced guide in both summer and winter conditions."
+	paragraph2 = "Phil Stevens Guiding is my small sole-trading business, a one-man band, not an activity centre or a Guides' Bureau or an employer of other guides. So if you book with me, you get... me!"
+	[params.feature.button]
+      caption = "More about Phil"
+      url = "/about"
+
+  
+  [params.call]
+    enable = true
+    title = "Professional mountain guiding and instruction on the West Coast of Scotland."
+    paragraph = "Ice climbing, scrambling, winter mountaineering, rock climbing..."
+
+  [params.service]
+    enable = true
+    title = "Autumn Favourites"
+    subtitle = "Looking for inspiration? Here are some of our more popular autumn objectives."
+	lowertitle = "Looking Ahead"
+	lowersubtitle = "Winter is coming... I'm now taking bookings, so contact me for more details."
+	
+  [params.contact]
+    enable = true
+    title = "Contact Phil"
+    subtitle1 = "Looking for more inspiration?"  
+    subtitle2 = "Need professional guidance about the right objective for you?"
+	subtitle3 = "Keen to book and want to know prices? Get in touch!"
+	[params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      reason = "How can I help?"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Contact details"
+      address = "5 Lora View, North Connel, Oban, PA37 1RR"
+      email = "Email: info@philstevensguiding.com"
+      phone = "Phone: +44 790 85 89 620"
+   
+   [params.thanks]
+     enable = true
+	 title = "Thanks for your Enquiry!"
+	 subtitle = "I'll get back to you as soon as possible."
+ 
