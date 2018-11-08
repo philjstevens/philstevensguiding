@@ -175,7 +175,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url({{"img/slimslider.jpg" | absURL }}) no-repeat;
+  background: url("img/slimslider.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: right bottom;
@@ -245,7 +245,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url({{"img/carnmorefacecrop1298.jpg"| absURL }});
+  background: url("img/carnmorefacecrop1298.jpg");
   background-position: 50% 94px;
   max-width: 100%;
   display: block;
@@ -318,7 +318,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url({{"img/callbg.jpg"| absURL }}) no-repeat;
+  background: url("img/callbg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -431,7 +431,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/tyrollean.jpg") no-repeat;
+  background: url("img/tyrollean.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -475,7 +475,7 @@ font header .navbar-default .navbar-nav li a:hover {
  Blog Index
  ------------------------*/
 #blog-header {
-  background: url("../img/muveran.jpg") no-repeat;
+  background: url("img/muveran.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -579,7 +579,7 @@ font header .navbar-default .navbar-nav li a:hover {
 					About Start
 -----------------------------------------------*/
 #about-header {
-  background: url("../img/tyrollean.jpg") no-repeat;
+  background: url("img/tyrollean.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -685,7 +685,7 @@ font header .navbar-default .navbar-nav li a:hover {
 -----------------------------------------------*/
 
 #contact-header {
-  background: url("../img/tridentflip.jpg") no-repeat;
+  background: url("img/tridentflip.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
