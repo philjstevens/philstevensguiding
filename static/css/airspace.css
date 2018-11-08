@@ -175,7 +175,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slimslider.jpg") no-repeat;
+  background: url({{"img/slimslider.jpg" | absURL }}) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: right bottom;
@@ -245,7 +245,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/carnmorefacecrop1298.jpg");
+  background: url({{"img/carnmorefacecrop1298.jpg"| absURL }});
   background-position: 50% 94px;
   max-width: 100%;
   display: block;
@@ -318,7 +318,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/callbg.jpg") no-repeat;
+  background: url({{"img/callbg.jpg"| absURL }}) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
