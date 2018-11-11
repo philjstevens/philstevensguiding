@@ -271,16 +271,7 @@ img[src$='#center']
     margin-bottom: 0px;
   }
   #slider {
-    background-image: url("/img/slimslider767.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/slimslider767.jpg") 1x,  
-		url("/img/slimslider991.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/slimslider767.jpg") 1x,  
-		url("/img/slimslider991.jpg") 2x   
-	);
-	padding-top: 110px;
+ 	padding-top: 110px;
     padding-bottom: 90px;
 	text-align: center;
 	
@@ -488,17 +479,6 @@ Feature Start
 					Work close - 
 					Global header
 -----------------------------------------------*/
-  #global-header {
-  background-image: url("/img/tyrollean767.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/tyrollean767.jpg") 1x,  
-		url("/img/tyrollean991.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/tyrollean767.jpg") 1x,  
-		url("/img/tyrollean991.jpg") 2x  
-	);
-	}
   #global-header .block {
   padding-left: 0px;
   text-align: center;
@@ -531,15 +511,6 @@ Feature Start
 	contact-header Start 
 --*/
 #contact-header {
-	background-image: url("/img/tridentflip767.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/tridentflip767.jpg") 1x,  
-		url("/img/tridentflip991.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/tridentflip767.jpg") 1x,  
-		url("/img/tridentflip991.jpg") 2x  
-	);
   padding-top: 100px;
   padding-bottom: 80px;
 }
