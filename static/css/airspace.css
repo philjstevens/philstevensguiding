@@ -175,7 +175,15 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("/img/slimslider.jpg") no-repeat;
+  background-image: url("/img/slimslider1298.jpg") no-repeat;
+  background-image: -webkit-image-set(  
+    url("/img/slimslider1298.jpg") 1x,  
+    url("/img/slimslider2596.jpg") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/slimslider1298.jpg") 1x,  
+    url("/img/slimslider2596.jpg") 2x   
+  );
   background-size: cover;
   background-attachment: fixed;
   background-position: right bottom;
@@ -245,7 +253,15 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("/img/carnmorefacecrop1298.jpg");
+  background-image: url("/img/carnmoreface1298.jpg");
+  background-image: -webkit-image-set(  
+    url("/img/carnmoreface1298.jpg") 1x,  
+    url("/img/carnmoreface2596.jpg") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/carnmoreface1298.jpg") 1x,  
+    url("/img/carnmoreface2596.jpg") 2x   
+  );
   background-position: 50% 94px;
   max-width: 100%;
   display: block;
@@ -318,7 +334,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("/img/callbg.jpg") no-repeat;
+  background-image: url("/img/callbg1298.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -431,7 +447,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("/img/tyrollean.jpg") no-repeat;
+  background-image: url("/img/tyrollean1298.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -475,7 +491,7 @@ font header .navbar-default .navbar-nav li a:hover {
  Blog Index
  ------------------------*/
 #blog-header {
-  background: url("/img/muveran.jpg") no-repeat;
+  background: url("/img/muveran1298.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -578,46 +594,6 @@ font header .navbar-default .navbar-nav li a:hover {
 /*---------------------------------------------
 					About Start
 -----------------------------------------------*/
-#about-header {
-  background: url("/img/tyrollean.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
-  position: relative;
-  background-attachment: fixed;
-  background-position: left;
-}
-#about-header:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.3;
-}
-#about-header .block {
-  color: #FFFFFF;
-  margin: 0 auto;
-  padding-left: 40px;
-  text-align: left;
-}
-#about-header .block h1 {
-  font-weight: 350;
-  font-size: 45px;
-  letter-spacing: 5px;
-  padding-bottom: 15px;
-  margin-top: 0;
-}
-#about-header .block h4 {
-  font-size: 23px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-}
 #about{
   padding: 50px 0;
 }
@@ -685,7 +661,15 @@ font header .navbar-default .navbar-nav li a:hover {
 -----------------------------------------------*/
 
 #contact-header {
-  background: url("/img/tridentflip.jpg") no-repeat;
+  background-image: url("/img/tridentflip1298.jpg") no-repeat;
+  background-image: -webkit-image-set(  
+    url("/img/tridentflip1298.jpg") 1x,  
+    url("/img/tridentflip2596.jpg") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/tridentflip1298.jpg") 1x,  
+    url("/img/tridentflip2596.jpg") 2x   
+  );
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
