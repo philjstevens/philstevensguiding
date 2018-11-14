@@ -23,18 +23,15 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
-  /*--
-	wrapper Start 
---*/
   #slider {
-  background-image: url("/img/slimslider991.jpg");
+  background-image: url("/img/trimslider991.jpg");
   background-image: -webkit-image-set(  
-    url("/img/slimslider991.jpg") 1x,  
-    url("/img/slimslider1298.jpg") 2x  
+    url("/img/trimslider991.jpg") 1x,  
+    url("/img/trimslider991x2.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/slimslider991.jpg") 1x,  
-    url("/img/slimslider1298.jpg") 2x   
+    url("/img/trimslider991.jpg") 1x,  
+    url("/img/trimslider991x2.jpg") 2x   
   );
   }
    #wrapper {
@@ -42,17 +39,16 @@ px      68    160    252    344    436    528    620    712    */
   }
   #wrapper .block img {
     padding-top: 100px;
-    width: 50%;
   }
   #feature {
-  background-image: url("/img/carnmoreface991.jpg");
+  background-image: url("/img/trimoreface991.jpg");
   background-image: -webkit-image-set(  
-    url("/img/carnmoreface991.jpg") 1x,  
-    url("/img/carnmoreface1298.jpg") 2x  
+    url("/img/trimoreface991.jpg") 1x,  
+    url("/img/trimoreface991x2.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/carnmoreface991.jpg") 1x,  
-    url("/img/carnmoreface1298.jpg") 2x   
+    url("/img/trimoreface991.jpg") 1x,  
+    url("/img/trimoreface991x2.jpg") 2x   
   );
   }
  
@@ -73,14 +69,6 @@ px      68    160    252    344    436    528    620    712    */
   }
   #call-to-action {
 	background-image: url("/img/callbg991.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/callbg991.jpg") 1x,  
-		url("/img/callbg1298.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/callbg991.jpg") 1x,  
-		url("/img/callbg1298.jpg") 2x   
-	);
 	}
    /*--
 	footer Start 
@@ -179,42 +167,26 @@ px      68    160    252    344    436    528    620    712    */
 					blog start 
 -----------------------------------------------*/
 #blog-header {
-	background-image: url("/img/muveran991.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/muveran991.jpg") 1x,  
-		url("/img/muveran1298.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/muveran991.jpg") 1x,  
-		url("/img/muveran1298.jpg") 2x 
-	);
+	background-image: url("/img/trimuveran991.jpg");
   }
   /*---------------------------------------------
 					global header 
 -----------------------------------------------*/
 #global-header {
-	background-image: url("/img/tyrollean991.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/tyrollean991.jpg") 1x,  
-		url("/img/tyrollean1298.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/tyrollean991.jpg") 1x,  
-		url("/img/tyrollean1298.jpg") 2x 
-	);
+	background-image: url("/img/trimollean991.jpg");
   }
   /*---------------------------------------------
 					contact start 
 -----------------------------------------------*/
   #contact-header {
-  background-image: url("/img/tridentflip991.jpg");
+  background-image: url("/img/trimtridentflip991.jpg");
   background-image: -webkit-image-set(  
-    url("/img/tridentflip991.jpg") 1x,  
-    url("/img/tridentflip1298.jpg") 2x  
+    url("/img/trimtridentflip991.jpg") 1x,  
+    url("/img/trimtridentflip991x2.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/tridentflip991.jpg") 1x,  
-    url("/img/tridentflip1298.jpg") 2x 
+    url("/img/trimtridentflip991.jpg") 1x,  
+    url("/img/trimtridentflip991x2.jpg") 2x 
   );
   }
   #wrapper-contact .block {
@@ -274,8 +246,16 @@ img[src$='#center']
  	padding-top: 110px;
     padding-bottom: 90px;
 	text-align: center;
-	
-	}
+	background-image: url("/img/trimslider767.jpg");
+    background-image: -webkit-image-set(  
+      url("/img/trimslider767.jpg") 1x,  
+      url("/img/trimslider767x2.jpg") 2x  
+    );  
+    background-image: image-set(  
+      url("/img/trimslider767.jpg") 1x,  
+      url("/img/trimslider767x2.jpg") 2x   
+    );
+  }
   #slider .block {
     padding-left: 0px;
   }
@@ -300,26 +280,26 @@ img[src$='#center']
   #intro .block img {
 	padding-top: 20px;
     padding-right: 20px;
-	padding-left: 10px;
-    width: 75%;
+	padding-left: 20px;
   }
 /*-------
 Feature Start
 ---------*/
 
 #feature {
-    background-image: url("/img/carnmoreface767.jpg");
+    background-image: url("/img/trimoreface767.jpg");
 	background-image: -webkit-image-set(  
-		url("/img/carnmoreface767.jpg") 1x,  
-		url("/img/carnmoreface991.jpg") 2x  
+		url("/img/trimoreface767.jpg") 1x,  
+		url("/img/trimoreface767x2.jpg") 2x  
 	);  
 	background-image: image-set(  
-		url("/img/carnmoreface767.jpg") 1x,  
-		url("/img/carnmoreface991.jpg") 2x  
+		url("/img/trimoreface767.jpg") 1x,  
+		url("/img/trimoreface767x2.jpg") 2x  
 	);
-  padding: 50px 0;
-  margin-left: auto;
-  color: #FFFFFF;
+	background-position: center;
+	padding: 50px 0;
+	margin-left: auto;
+	color: #FFFFFF;
 }
 #feature h4 {
   font-size: 13px;
@@ -343,15 +323,8 @@ Feature Start
 --*/
   #call-to-action {
   background-image: url("/img/callbg767.jpg");
-  background-image: -webkit-image-set(  
-		url("/img/callbg767.jpg") 1x,  
-		url("/img/callbg991.jpg") 2x  
-  );  
-  background-image: image-set(  
-		url("/img/callbg767.jpg") 1x,  
-		url("/img/callbg991.jpg") 2x  
-  );
   padding: 50px 0px 0px 0px;
+  background-position: center;
   }
   #call-to-action h4 {
     padding: 0px 0px 40px;
@@ -479,6 +452,18 @@ Feature Start
 					Work close - 
 					Global header
 -----------------------------------------------*/
+  #global-header {
+	background-image: url("/img/trimollean767.jpg");
+	background-image: -webkit-image-set(  
+		url("/img/trimollean767.jpg") 1x,  
+		url("/img/trimollean767x2.jpg") 2x  
+	);  
+	background-image: image-set(  
+		url("/img/trimollean767.jpg") 1x,  
+		url("/img/trimollean767x2.jpg") 2x 
+	);
+	 background-position: center;
+  }
   #global-header .block {
   padding-left: 0px;
   text-align: center;
@@ -490,15 +475,8 @@ Feature Start
 					blog start 
 -----------------------------------------------*/
 #blog-header {
-	background-image: url("/img/muveran767.jpg");
-	background-image: -webkit-image-set(  
-		url("/img/muveran767.jpg") 1x,  
-		url("/img/muveran991.jpg") 2x  
-	);  
-	background-image: image-set(  
-		url("/img/muveran767.jpg") 1x,  
-		url("/img/muveran991.jpg") 2x 
-	);
+	background-image: url("/img/trimuveran767.jpg");
+	background-position: center;
   }
 #blog-header .block h4 {
   font-size: 20px;
