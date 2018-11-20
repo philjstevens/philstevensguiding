@@ -175,7 +175,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background-image: url("/img/slimslider1298.jpg") no-repeat;
+  background-image: url("/img/slimslider1298.jpg");
   background-image: -webkit-image-set(  
     url("/img/slimslider1298.jpg") 1x,  
     url("/img/slimslider2596.jpg") 2x  
@@ -184,6 +184,7 @@ font header .navbar-default .navbar-nav li a:hover {
     url("/img/slimslider1298.jpg") 1x,  
     url("/img/slimslider2596.jpg") 2x   
   );
+  background-repeat:  no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: right bottom;
@@ -200,7 +201,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #d8d5e8, #b4afc6);
-  opacity: 0.1;
+  opacity: 0.2;
 }
 #slider .block {
   color: #FFFFFF;
@@ -219,7 +220,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-
 }
 /*--
 	wrapper Start
@@ -334,7 +334,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background-image: url("/img/callbg1298.jpg") no-repeat;
+  background-image: url("/img/callbg1298.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -398,7 +399,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .testimonial-carousel p {
   line-height: 28px;
   padding-bottom: 20px;
-  
 }
 #testimonial .testimonial-carousel .user img {
   padding-bottom: 0px;
@@ -447,7 +447,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background-image: url("/img/tyrollean1298.jpg") no-repeat;
+  background-image: url("/img/tyrollean1298.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -661,7 +662,7 @@ font header .navbar-default .navbar-nav li a:hover {
 -----------------------------------------------*/
 
 #contact-header {
-  background-image: url("/img/tridentflip1298.jpg") no-repeat;
+  background-image: url("/img/tridentflip1298.jpg");
   background-image: -webkit-image-set(  
     url("/img/tridentflip1298.jpg") 1x,  
     url("/img/tridentflip2596.jpg") 2x  
@@ -670,6 +671,7 @@ font header .navbar-default .navbar-nav li a:hover {
     url("/img/tridentflip1298.jpg") 1x,  
     url("/img/tridentflip2596.jpg") 2x   
   );
+  background-repeat:  no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
