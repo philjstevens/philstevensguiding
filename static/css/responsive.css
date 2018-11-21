@@ -70,6 +70,9 @@ px      68    160    252    344    436    528    620    712    */
   #call-to-action {
 	background-image: url("/img/callbg991.jpg");
 	}
+  #call-to-action .btn-call-to-action {
+    margin: 20px 0px 0px;
+  }
    /*--
 	footer Start 
 --*/
@@ -244,9 +247,8 @@ img[src$='#center']
     margin-bottom: 0px;
   }
   #slider {
- 	padding-top: 110px;
-    padding-bottom: 90px;
-	text-align: center;
+ 	padding: 110px 0px 90px 0px;
+    text-align: center;
 	background-image: url("/img/trimslider767.jpg");
     background-image: -webkit-image-set(  
       url("/img/trimslider767.jpg") 1x,  
@@ -256,6 +258,7 @@ img[src$='#center']
       url("/img/trimslider767.jpg") 1x,  
       url("/img/trimslider767x2.jpg") 2x   
     );
+	background-position: bottom;
   }
   #slider .block {
     padding-left: 0px;
@@ -330,8 +333,8 @@ Feature Start
   #call-to-action h4 {
     padding: 0px 0px 40px;
   }
-  #call-to-action .btn {
-    padding: 10px 20px;
+  #call-to-action .btn-call-to-action {
+    margin: 0px 0px 40px;
     font-size: 15px;
   }
   /*--

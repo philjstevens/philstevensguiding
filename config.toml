@@ -87,6 +87,9 @@ languageCode = "en-us"
     enable = true
     title = "Professional mountain guiding and instruction on the West Coast of Scotland."
     paragraph = "Ice climbing, scrambling, winter mountaineering, rock climbing..."
+	[params.call.button]
+      caption = "Contact Phil"
+      url = "/contact"
 
   [params.service]
     enable = true
