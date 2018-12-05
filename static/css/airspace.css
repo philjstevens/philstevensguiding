@@ -81,9 +81,7 @@ a:active {
   padding: 100px 0;
 }
 
-.section-title {
-  margin-bottom: 70px;
-}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: 600;
@@ -150,7 +148,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px ;
+  padding: 15px 0px 5px;
   max-height: 70px;
   }
 header .navbar-default {
@@ -158,7 +156,7 @@ header .navbar-default {
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 35px;
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
@@ -224,28 +222,29 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
-#intro {
+#wrapper {
   padding: 50px 0;
 }
-#intro .block {
+#wrapper .block {
   color: #4A4A4A
 }
-#intro .block h2 {
+#wrapper .block h2 {
   padding: 10px 0px 20px;
   line-height: 27px;
   margin: 0;
 }
-#intro .block p {
+#wrapper .block p {
   padding-top: 20px;
 }
-#intro .block img {
+#wrapper .block img {
   padding-right: 20px;
+  margin-left: 20px;
   width: 100%;
 }
-#intro .section-title {
+#wrapper .section-title {
   margin-bottom: 0px;
 }
-#intro .section-title p {
+#wrapper .section-title p {
   padding-top: 20px;
 }
 /*--
@@ -288,13 +287,13 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #0fc136;
   color: #FFFFFF;
   padding: 10px 20px;
+  margin-top: 20px;
 }
 /*--
 	service Start
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
 }
 #service img {
   width: 75%;
@@ -312,8 +311,14 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 13px;
   line-height: 15px;
 }
-#service .upper-title {
+#service .upper-section-title {
+  padding-top: 40px;
+  margin-bottom: 30px;
+ }
+#service .lower-section-title {
   padding-top: 10px;
+  margin-bottom: 30px;
+  color: #4A4A4A;
  }
 #service .service-item {
   padding-bottom: 30px;
@@ -334,7 +339,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 70px 0px;
+  padding: 70px 0px 50px;
   position: relative;
   text-align: center;
   color: #fff;
@@ -360,24 +365,30 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   font-size: 30px;
 }
-#call-to-action p {
+#call-to-action h4 {
   font-size: 14px;
   line-height: 1.6;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 #call-to-action .btn-call-to-action {
   background: #0fc136;
   border:none;
   color: #FFFFFF;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 10px;
 }
 
 /*---------------------
 	Testimonial Start
 -----------------------*/
-#testimonial {
-  padding: 50px 0;
+
+#testimonial .section-title {
+  padding-top: 35px;
+  margin-bottom: 35px;
+  }
+#testimonial .instagram {
+ margin-right: 0px;
 }
 #testimonial .instagram-media {
  width:78%; width:-webkit-calc(80% - 2px); width:calc(80% - 2px);
@@ -386,7 +397,7 @@ font header .navbar-default .navbar-nav li a:hover {
  box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
  margin: 1px; 
  max-width:540px; 
- min-width:326px; 
+ min-width: 300px;
  padding:0; 
 }
 #testimonial .block h2 {
@@ -395,12 +406,14 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel {
   text-align: center;
-  max-width: 75%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   padding-top: 0;
 }
 #testimonial .testimonial-carousel img {
- padding-bottom: 10px;
+ margin-bottom: 0px;
+ max-width: 75%
+ border: 0;
+ border-radius: 10px;
  }
 #testimonial .testimonial-carousel p {
   line-height: 28px;

@@ -17,9 +17,6 @@ px      68    160    252    344    436    528    620    712    */
 	display: initial;
 }
 
-.flex-child {
-	display: initial;
-	}
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -34,12 +31,18 @@ px      68    160    252    344    436    528    620    712    */
     url("/img/trimslider991x2.jpg") 2x   
   );
   }
-   #wrapper {
+  #wrapper {
     text-align: center;
   }
-  #wrapper .block img {
-    padding-top: 100px;
+  #wrapper .block {
+    margin: 30px;
+	float: center;
   }
+  #wrapper .block img {
+   max-width:100%;
+   padding: 20px 20px 0px;
+  }
+  
   #feature {
   background-image: url("/img/trimoreface991.jpg");
   background-image: -webkit-image-set(  
@@ -72,6 +75,16 @@ px      68    160    252    344    436    528    620    712    */
 	}
   #call-to-action .btn-call-to-action {
     margin: 20px 0px 0px;
+  }
+  
+  /*--Testimonial start--*/
+  
+  #testimonial .section-title {
+    padding-top: 30px;
+  }
+  #testimonial .instagram {
+    padding: 0px 0px 20px 0px;
+	margin-left: auto;
   }
    /*--
 	footer Start 
@@ -243,8 +256,8 @@ img[src$='#center']
   h5 {
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 35px;
+    margin-bottom: 15px;
   }
   #slider {
  	padding: 110px 0px 90px 0px;
@@ -272,16 +285,12 @@ img[src$='#center']
   /*--
 	wrapper Start 
 --*/
-  #intro {
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 20px;
-  }
-  #intro.block h2 {
+
+  #wrapper.block h2 {
 	font-size: 13px;
 	text-align: justified;
   }
-  #intro .block img {
+  #wrapper .block img {
 	padding-top: 20px;
     padding-right: 20px;
 	padding-left: 20px;
@@ -331,12 +340,14 @@ Feature Start
   background-position: center;
   }
   #call-to-action h4 {
-    padding: 0px 0px 40px;
+    padding: 0px 0px 20px;
   }
   #call-to-action .btn-call-to-action {
     margin: 0px 0px 40px;
     font-size: 15px;
   }
+  
+ 
   /*--
 	content Start 
 --*/
