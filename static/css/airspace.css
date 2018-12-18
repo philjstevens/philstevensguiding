@@ -83,8 +83,6 @@ a:active {
 
 
 .section-title h2 {
-  font-size: 28px;
-  font-weight: 600;
   color: #4A4A4A;
 }
 .section-title h3 {
@@ -225,6 +223,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #wrapper {
   padding: 50px 0;
 }
+#wrapper .section-title {
+  margin-bottom: 0px;
+}
+#wrapper .section-title p {
+  padding-top: 20px;
+}
 #wrapper .block {
   color: #4A4A4A
 }
@@ -241,12 +245,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-left: 20px;
   width: 100%;
 }
-#wrapper .section-title {
-  margin-bottom: 0px;
-}
-#wrapper .section-title p {
-  padding-top: 20px;
-}
+
 /*--
 	Feature Start
 --*/
@@ -393,12 +392,11 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial .instagram-media {
  width:78%; width:-webkit-calc(80% - 2px); width:calc(80% - 2px);
  background:#FFF; 
- border:0; border-radius:3px; 
- box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
+ border:0; 
  margin: 1px; 
  max-width:540px; 
- min-width: 300px;
- padding:0; 
+ min-width: 320px;
+ padding-left: 0; 
 }
 #testimonial .block h2 {
   line-height: 27px;
@@ -410,10 +408,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 0;
 }
 #testimonial .testimonial-carousel img {
- margin-bottom: 0px;
- max-width: 75%
- border: 0;
- border-radius: 10px;
+
  }
 #testimonial .testimonial-carousel p {
   line-height: 28px;
@@ -421,7 +416,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel .user img {
   padding-bottom: 0px;
-  max-width: 280px;
+  max-width: 250px;
+  min-width: 220px;
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: 10px;
 }
 #testimonial .testimonial-carousel .user p {
   padding-top: 20px;

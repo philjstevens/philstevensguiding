@@ -33,14 +33,17 @@ px      68    160    252    344    436    528    620    712    */
   }
   #wrapper {
     text-align: center;
+	padding: 0px 0px;
   }
   #wrapper .block {
     margin: 30px;
 	float: center;
   }
   #wrapper .block img {
+  padding-right: 0px;
+  margin-left: 0px;
    max-width:100%;
-   padding: 20px 20px 0px;
+   height: auto;
   }
   
   #feature {
@@ -248,7 +251,7 @@ img[src$='#center']
     padding-left: 0px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
   p {
     font-size: 13px;
@@ -285,15 +288,18 @@ img[src$='#center']
   /*--
 	wrapper Start 
 --*/
-
-  #wrapper.block h2 {
-	font-size: 13px;
-	text-align: justified;
-  }
+  #wrapper {
+    padding: 0;
+}
+  #wrapper h2 {
+	font-size: 28px;
+}
+  #wrapper .block {
+    text-align: center;
+}
   #wrapper .block img {
-	padding-top: 20px;
-    padding-right: 20px;
-	padding-left: 20px;
+    padding: 10px 20px 0px;
+    margin: 0px;
   }
 /*-------
 Feature Start
@@ -313,18 +319,25 @@ Feature Start
 	padding: 50px 0;
 	margin-left: auto;
 	color: #FFFFFF;
+	text-align:center;
 }
 #feature h4 {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 500;
 }
+#feature .btn-about {
+  text-align: center;
+  }
   /*--
 	service Start 
 --*/
   #service {
-    padding-top: 50px;
+    padding-top: 0px;
   }
-  #service .section-title {
+  #service .upper-section-title {
+    padding-bottom: 20px;
+  }
+  #service .lower-section-title {
     padding-bottom: 20px;
   }
   #service .thumbnail {
@@ -335,6 +348,7 @@ Feature Start
 	call-to-action Start 
 --*/
   #call-to-action {
+  margin-top: 20px;
   background-image: url("/img/callbg767.jpg");
   padding: 50px 0px 0px 0px;
   background-position: center;
@@ -346,7 +360,9 @@ Feature Start
     margin: 0px 0px 40px;
     font-size: 15px;
   }
-  
+  #testimonial .instagram-media {
+	margin-left: 0px;
+  }
  
   /*--
 	content Start 
@@ -374,6 +390,12 @@ Feature Start
   #features .features-img {
     text-align: center;
   }
+  #service .upper-section-title {
+    margin: 0 15px;
+	}
+  #service .lower-section-title {
+    margin: 0 15px;
+	}
   /*---------------------------------------------
 					Index Close 
 -----------------------------------------------*/
