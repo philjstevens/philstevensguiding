@@ -44,6 +44,8 @@ languageCode = "en-us"
 
   home = "Home"
 
+  googleAnalytics = "UA-131145127-1"
+  
   inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   
   disqusShortname = "philstevensguiding"
