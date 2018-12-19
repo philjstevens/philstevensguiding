@@ -9,7 +9,7 @@
 
 <!-- banner Start -->
 <section id="blogpost-header">
-  <div class="container" style="background:url(' {{ .Params.header_image }} ') no-repeat; background-size:cover; width:inherit; padding: 200px 0px 157px 0px; background-attachment:fixed; background-position:center;">
+  <div class="container" style="background:url(' {{ .Params.header_image }} ') ; background-size:cover; padding-top: 200px; padding-bottom: 157px; background-attachment:fixed; background-position:center;">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
@@ -19,7 +19,7 @@
     </div>
   </div>
 </section>
-	<div class="post" style="padding-top:30px">
+	<div class="post" style="padding-top:30px; margin:10px;">
 	  <!-- Wrapper Start -->
 	  <section id="blogpost-intro">
 	    <div class="container">
@@ -36,7 +36,7 @@
 	    </div>
 	  </section>
 	</div>
-	<div>{{ partial "disqus.html" . }}</div>	
+	{{ template "_internal/disqus.html" . }}	
 	<div>
 	  <a class="link-h2" href="{{ $.Site.BaseURL }}/blog">Back to blog</a>
 	</div>

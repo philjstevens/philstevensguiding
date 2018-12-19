@@ -575,10 +575,14 @@ font header .navbar-default .navbar-nav li a:hover {
  width: 100%;
 } 
 /* Blog posts */
+#blogpost-header  .container{
+  width: 100%;  
+  background-repeat: no-repeat;
+  position: relative;
+}
 #blogpost-header .block {
   color: #FFFFFF;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #blogpost-header .block h1 {
@@ -596,6 +600,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #blogpost  img {
 	max-height: 200px;
+}
+#blogpost .post {
+    margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 30px;
 }
 .link-h2 {
   color: #4A4A4A;
