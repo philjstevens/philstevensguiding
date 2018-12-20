@@ -158,7 +158,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 10px 26px;
+  padding: 1rem 2rem;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -285,7 +285,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .btn-about {
   background: #0fc136;
   color: #FFFFFF;
-  padding: 10px 20px;
+  padding: 1rem 20px;
   margin-top: 20px;
 }
 /*--
@@ -374,30 +374,34 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #0fc136;
   border:none;
   color: #FFFFFF;
-  padding: 10px 20px;
+  padding: 1rem 20px;
   margin: 10px;
 }
 
 /*---------------------
 	Testimonial Start
 -----------------------*/
-
-#testimonial .section-title {
-  padding-top: 35px;
-  margin-bottom: 35px;
+#instagram .section-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   }
-#testimonial .instagram {
+#instagram .instagram {
  margin-right: 0px;
 }
-#testimonial .instagram-media {
+#instagram .instagram-media {
  width:78%; width:-webkit-calc(80% - 2px); width:calc(80% - 2px);
  background:#FFF; 
  border:0; 
  margin: 1px; 
  max-width:540px; 
- min-width: 320px;
+ min-width: 300px;
  padding-left: 0; 
 }
+
+#testimonial .section-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
 #testimonial .block h2 {
   line-height: 27px;
   color: #5C5C5C;
