@@ -66,8 +66,8 @@ p {
   font-weight: 400;
 }
 ul {
-  padding: 0;
-  margin: 0;
+  padding: 1rem;
+  margin: 1rem;
   list-style: none;
   color: #4A4A4A;
 }
@@ -157,7 +157,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
