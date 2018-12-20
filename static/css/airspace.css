@@ -139,7 +139,6 @@ img[src$='#floatright']
 --*/
 header {
   background: #fff;
-
 }
 header .navbar {
   margin-bottom: 30px;
@@ -382,8 +381,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Testimonial Start
 -----------------------*/
 #instagram .section-title {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;  margin-bottom: 1rem;
   }
 #instagram .instagram {
  margin-right: 0px;
@@ -399,8 +397,8 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #testimonial .section-title {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
   }
 #testimonial .block h2 {
   line-height: 27px;
