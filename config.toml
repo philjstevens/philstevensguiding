@@ -96,10 +96,10 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.service]
     enable = true
-    title = "Autumn Favourites"
-    subtitle = "Looking for inspiration? Here are some of our more popular autumn objectives."
-	lowertitle = "Looking Ahead"
-	lowersubtitle = "Winter is coming... I'm now taking bookings, so contact me for more details."
+    title = "Winter has Landed"
+    subtitle = "I'm now pretty booked up, but there are still a few days free here and there - contact me if you're interested in..."
+	lowertitle = "Spring is Coming"
+	lowersubtitle = "Browse some of the more popular adventures, or get in touch to discuss your own ideas."
 	
   [params.contact]
     enable = true
