@@ -96,10 +96,9 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.service]
     enable = true
-    title = "Winter has Landed"
-    subtitle = "I'm now pretty booked up, but there are still a few days free here and there - contact me if you're interested in..."
-	lowertitle = "Spring is Coming"
-	lowersubtitle = "Browse some of the more popular adventures, or get in touch to discuss your own ideas."
+    title = "Spring in the Highlands - the best time of the year!"
+    subtitle1 = "The rock is dry, the snow is all but gone, and the midges are yet to surface... It's the perfect season on the West Coast."
+	subtitle2 = "Get in touch with Phil now to book your climbing or scrambling adventure - here's some popular ideas to spark your imagination..."
 	
   [params.contact]
     enable = true

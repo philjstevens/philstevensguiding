@@ -293,9 +293,13 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
   text-align: center;
+  padding-bottom: 30px;
 }
 #service img {
   width: 75%;
+}
+#service h2 {
+  padding-bottom: 20px;
 }
 #service h5 {
   color: #4A4A4A;
@@ -313,11 +317,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #service .upper-section-title {
   padding-top: 40px;
   margin-bottom: 30px;
- }
-#service .lower-section-title {
-  padding-top: 10px;
-  margin-bottom: 30px;
-  color: #4A4A4A;
  }
 #service .service-item {
   padding-bottom: 30px;
