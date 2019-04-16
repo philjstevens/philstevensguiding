@@ -22,14 +22,6 @@ px      68    160    252    344    436    528    620    712    */
 -----------------------------------------------*/
   #slider {
   background-image: url("/img/trimslider991.jpg");
-  background-image: -webkit-image-set(  
-    url("/img/trimslider991.jpg") 1x,  
-    url("/img/trimslider991x2.jpg") 2x  
-  );  
-  background-image: image-set(  
-    url("/img/trimslider991.jpg") 1x,  
-    url("/img/trimslider991x2.jpg") 2x   
-  );
   }
   #wrapper {
     text-align: center;
@@ -266,15 +258,7 @@ img[src$='#center']
  	padding: 110px 0px 90px 0px;
     text-align: center;
 	background-image: url("/img/trimslider767.jpg");
-    background-image: -webkit-image-set(  
-      url("/img/trimslider767.jpg") 1x,  
-      url("/img/trimslider767x2.jpg") 2x  
-    );  
-    background-image: image-set(  
-      url("/img/trimslider767.jpg") 1x,  
-      url("/img/trimslider767x2.jpg") 2x   
-    );
-	background-position: bottom;
+ 	background-position: bottom;
   }
   #slider .block {
     padding-left: 0px;
