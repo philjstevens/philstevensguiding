@@ -5,6 +5,18 @@ googleAnalytics = "UA-131145127-1"
 disqusShortname = "philstevensguiding"
 inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = true
+
 [menu]
 
   [[menu.header]]
@@ -96,9 +108,9 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.service]
     enable = true
-    title = "Spring in the Highlands - the best time of the year!"
-    subtitle1 = "The rock is dry, the snow is all but gone, and the midges are yet to surface... It's the perfect season on the West Coast."
-	subtitle2 = "Get in touch with Phil now to book your climbing or scrambling adventure - here's some popular ideas to spark your imagination..."
+    title = "COVID-19 - 'The mountains will always be there, the trick is to make sure you are too.'"
+    subtitle1 = "STAY AT HOME - SAVE LIVES. Conditions are frustratingly good on the crags and mountains at the moment, but we all have our part to play in containing the spread of COVID-19."
+	subtitle2 = "Right now we are locked down like everyone else, and aren't out and about in the hills just now. It won't be forever though! Here are some adventures we could guide you on after the end of lockdown - feel free to contact us for more information."
 	
   [params.contact]
     enable = true
