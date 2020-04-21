@@ -1183,14 +1183,6 @@ img[src$='#center']
  	padding: 110px 0px 90px 0px;
     text-align: center;
 	background-image: url("/img/trimslider767px.jpg");
-	background-image: -webkit-image-set(  
-    url("/img/trimslider767px.jpg") 1x,  
-    url("/img/trimslider1534px.jpg") 2x  
-	);  
-	background-image: image-set(  
-    url("/img/trimslider767px.jpg") 1x,  
-    url("/img/trimslider1534px.jpg") 2x   
-	);
  	background-position: bottom;
   }
   #slider .block {
@@ -1266,7 +1258,6 @@ Feature Start
 --*/
   #call-to-action {
   margin-top: 20px;
-  background-image: url("/img/callbg767px.jpg");
   padding: 50px 0px 0px 0px;
   background-position: center;
   }
