@@ -1,4 +1,3 @@
 +++
-owl = true
 bootstrap = true
 +++
