@@ -171,14 +171,14 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background-image: url("/img/slimslider1298.jpg");
+  background-image: url("img/slimslider1298px.jpg");
   background-image: -webkit-image-set(  
-    url("/img/slimslider1298.jpg") 1x,  
-    url("/img/slimslider2596.jpg") 2x  
+    url("/img/slimslider1298px.jpg") 1x,  
+    url("/img/slimslider2595px.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/slimslider1298.jpg") 1x,  
-    url("/img/slimslider2596.jpg") 2x   
+    url("/img/slimslider1298px.jpg") 1x,  
+    url("/img/slimslider2595px.jpg") 2x   
   );
   background-repeat:  no-repeat;
   background-size: cover;
@@ -333,7 +333,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background-image: url("/img/callbg1298.jpg");
+  background-image: url("/img/callbg1298px.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -939,6 +939,14 @@ px      68    160    252    344    436    528    620    712    */
 -----------------------------------------------*/
   #slider {
   background-image: url("/img/trimslider991.jpg");
+  background-image: -webkit-image-set(  
+    url("/img/trimslider991px.jpg") 1x,  
+    url("/img/trimslider1982px.jpg") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/trimslider991px.jpg") 1x,  
+    url("/img/trimslider1982px.jpg") 2x   
+  );
   }
   #wrapper {
     text-align: center;
@@ -983,7 +991,7 @@ px      68    160    252    344    436    528    620    712    */
     text-align: center;
   }
   #call-to-action {
-	background-image: url("/img/callbg991.jpg");
+	background-image: url("/img/callbg991px.jpg");
 	}
   #call-to-action .btn-call-to-action {
     margin: 20px 0px 0px;
@@ -1174,7 +1182,15 @@ img[src$='#center']
   #slider {
  	padding: 110px 0px 90px 0px;
     text-align: center;
-	background-image: url("/img/trimslider767.jpg");
+	background-image: url("/img/trimslider767px.jpg");
+	background-image: -webkit-image-set(  
+    url("/img/trimslider767px.jpg") 1x,  
+    url("/img/trimslider1534px.jpg") 2x  
+	);  
+	background-image: image-set(  
+    url("/img/trimslider767px.jpg") 1x,  
+    url("/img/trimslider1534px.jpg") 2x   
+	);
  	background-position: bottom;
   }
   #slider .block {
@@ -1250,7 +1266,7 @@ Feature Start
 --*/
   #call-to-action {
   margin-top: 20px;
-  background-image: url("/img/callbg767.jpg");
+  background-image: url("/img/callbg767px.jpg");
   padding: 50px 0px 0px 0px;
   background-position: center;
   }
