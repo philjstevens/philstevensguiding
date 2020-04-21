@@ -33,7 +33,7 @@
 							</div>
 						{{ with .Params.image }}
 							<div class = "col-sm-6">
-								<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+								<img src="/blog/{{ . | relURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
 							</div>
 						</div>
 						<div class="row" style="padding:15px 0px 30px 0px">

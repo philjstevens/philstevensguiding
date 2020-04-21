@@ -6,25 +6,25 @@ tags = ["winter climbing", "climbing", "scottishwinterclimbing"]
 categories = ["climbs"]
 author = "Phil Stevens"
 layout = "blogpost"
-header_image = "/media/thirdman2.jpg"
-image = "/media/thirdman5.jpg"
+header_image = "thirdman2.jpg"
+image = "/coire-an-lochain/thirdman5.jpg"
 +++
 
 Nearly a month since the winter climbing "rat" was last fed, and I must admit I was becoming impatient. It was therefore a relief to see more snow on the hills this week. Yesterday I was back out with Malcy to make the most of it before he disappears to sell Christmas trees for a month - what a nutter!
 
 We headed east this time as temperatures weren't all that cold - contrary to what a lot of folk believe, this isn't a barrier to winter climbing as long as you're on the right sort of route! "Snowed-up rock" climbs (yes they are a thing) often follow the line of existing summer routes, and as such don't rely on frozen turf or even consolidated snow. The Northern Corries in the Cairngorms are renowned for providing routes of that style, with the difficulty usually correlating to how steep and how rounded the granite is on the given route!
 
-![Thick fog](/media/thirdman4.jpg#center)
+![Thick fog](thirdman4.jpg#center)
 
 We wandered into Coire an Lochain first thing, with Wilky and Joris. It was hardly a "bluebird" day, as you can see in the picture! Plenty of soft wet snow, which had in place drifted to about a metre deep, made for slow going in places, but eventually we made it into the base of Number 4 Buttress. Much faff ensued - oh how I love the early season, when everything still seems slow and difficult. Eventually we decided on a route:
 
-![The upper corner-groove](/media/thirdman3.jpg#center)
+![The upper corner-groove](thirdman3.jpg#center)
 
 <b>Third Man, V 6</b>
 
 This route is graded at either IV 6 or V 6 depending on which guidebook you have. In my opinion it's the latter, with plenty of tech 6 climbing and not always an abundance of reliable gear. The route starts up Salamander (somewhat notorious sandbag grade III) before stepping left into an excellent open-book corner - directly above Malcy in the picture below. Broken ground follows, before a final technical groove leads up and left to the platform above Savage Slit. The route actually turned out to be more vegetated than either of us had expected, so this meant it was a bit trickier as we had to avoid using the unfrozen turf. If you use the turf regardless, you will a) probably wreck the route for the next generation of climbers and b) probably fall off anyway when your tools rip. There are also a few potentialy loose blocks around on the route that we had to treat with a lot of care, so all things considered I'd encourage future ascensionists to wait for a good freeze before attempting this route. I think it would still be grade V in these conditions, as there's plenty of good engaging climbing up the corners, walls and grooves that require all manner of moves and positions to make steady progress. The hooks aren't all that easy to find in places, but they are there somewhere, and it's never harder than Tech 6 at any point. The broken middle section does detract from the overall quality of the route, but what lies above and below is really worthwhile. If you've not done this route and are happy making plenty of technical moves on rock, often without a runner by your head, put it on your list.
 
-![Setting out](/media/thirdman2.jpg#center)
+![Setting out](thirdman2.jpg#center)
 
 We did a couple of abseils to get back down Savage Slit as we really didn't fancy the hassle of a stuck rope behind a chock-stone. Malcy's psyche bucket had sprung a leak, and it was two o'clock. We'd hoped to be quicker on Third Man, but wet snow conditions meant slow clearing and slow progress. I still fancied another pitch though, and Malcy was kind enough to offer a belay if I abseiled off and cleaned the route after a pitch - how could I refuse?! I pondered a little on what to climb, but decided what I really wanted was an in-situ abseil anchor. Hang on, hadn't I just used one...?
 
