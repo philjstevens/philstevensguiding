@@ -295,7 +295,9 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   padding-bottom: 30px;
 }
-
+#service img {
+  width: 75%;
+}
 #service h2 {
   padding-bottom: 20px;
 }
