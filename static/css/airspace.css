@@ -250,14 +250,14 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background-image: url("/img/carnmoreface1298.jpg");
+  background-image: url("/img/carnmoreface1298px.jpg");
   background-image: -webkit-image-set(  
-    url("/img/carnmoreface1298.jpg") 1x,  
-    url("/img/carnmoreface2596.jpg") 2x  
+    url("/img/carnmoreface1298px.jpg") 1x,  
+    url("/img/carnmoreface2596px.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/carnmoreface1298.jpg") 1x,  
-    url("/img/carnmoreface2596.jpg") 2x   
+    url("/img/carnmoreface1298px.jpg") 1x,  
+    url("/img/carnmoreface2596px.jpg") 2x   
   );
   background-position: 50% 94px;
   max-width: 100%;
@@ -295,9 +295,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   padding-bottom: 30px;
 }
-#service img {
-  width: 75%;
-}
+
 #service h2 {
   padding-bottom: 20px;
 }
@@ -957,21 +955,21 @@ px      68    160    252    344    436    528    620    712    */
 	float: center;
   }
   #wrapper .block img {
-  padding-right: 0px;
-  margin-left: 0px;
+  
+  
    max-width:100%;
    height: auto;
   }
   
   #feature {
-  background-image: url("/img/trimoreface991.jpg");
+  background-image: url("/img/trimoreface991px.jpg");
   background-image: -webkit-image-set(  
-    url("/img/trimoreface991.jpg") 1x,  
-    url("/img/trimoreface991x2.jpg") 2x  
+    url("/img/trimoreface991px.jpg") 1x,  
+    url("/img/trimoreface1982px.jpg") 2x  
   );  
   background-image: image-set(  
-    url("/img/trimoreface991.jpg") 1x,  
-    url("/img/trimoreface991x2.jpg") 2x   
+    url("/img/trimoreface991px.jpg") 1x,  
+    url("/img/trimoreface1982px.jpg") 2x   
   );
   }
  
@@ -1215,14 +1213,14 @@ Feature Start
 ---------*/
 
 #feature {
-    background-image: url("/img/trimoreface767.jpg");
+    background-image: url("/img/trimoreface767px.jpg");
 	background-image: -webkit-image-set(  
-		url("/img/trimoreface767.jpg") 1x,  
-		url("/img/trimoreface767x2.jpg") 2x  
+		url("/img/trimoreface767px.jpg") 1x,  
+		url("/img/trimoreface1534px.jpg") 2x  
 	);  
 	background-image: image-set(  
-		url("/img/trimoreface767.jpg") 1x,  
-		url("/img/trimoreface767x2.jpg") 2x  
+		url("/img/trimoreface767px.jpg") 1x,  
+		url("/img/trimoreface1534px.jpg") 2x  
 	);
 	background-position: center;
 	padding: 50px 0;
