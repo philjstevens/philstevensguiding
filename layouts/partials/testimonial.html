@@ -22,7 +22,7 @@
                 <img src="img/cotation.png" alt="IMG">
                 <p>"{{ .text }}"</p>
                 <div class="user">
-                  <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="People">
+                  <img class="lazy" src="{{ $.Site.BaseURL }}{{ .image }}" alt="People">
                   <p><span>{{ .name }}</span> {{ .course }}</p>
                 </div>
             </div>
