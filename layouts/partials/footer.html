@@ -1,8 +1,6 @@
 {{ if eq .Params.owl true }}
+<link rel="stylesheet" href={{"css/owl.carousel.css"| absURL }} />
 <script src={{"js/owl.carousel.min.js" | absURL }}></script>
-{{ end }}
-{{ if eq .Params.bootstrap true }}
-<script src={{"js/bootstrap.min.js" | absURL }}></script>
 {{ end }}
 <!-- footer Start -->
 <footer>
