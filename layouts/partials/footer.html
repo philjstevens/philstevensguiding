@@ -1,7 +1,4 @@
-{{ if eq .Params.owl true }}
-<link rel="stylesheet" href={{"css/owl.carousel.css"| absURL }} />
-<script src={{"js/owl.carousel.min.js" | absURL }}></script>
-{{ end }}
+<!DOCTYPE html>
 <!-- footer Start -->
 <footer>
   <div class="container">
@@ -19,3 +16,33 @@
     </div>
   </div>
 </footer>
+<script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script defer>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script defer src={{"js/bootstrap.min.js" | absURL }}></script>
+{{ if eq .Params.owl true }}
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = {{"js/owl.carousel.min.js" | absURL }};
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+<link rel="stylesheet" href={{"css/owl.carousel.min.css"| absURL }} />
+{{ end }}
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = {{"js/plugins.min.js" | absURL }};
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
