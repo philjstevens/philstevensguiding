@@ -30,10 +30,10 @@
 		{{ partial "call-to-action.html" . }}
 	{{ end }}
 
-	{{ if .Site.Data.testimonial.enable }}
+	{{ if and (isset .Site.Params "testimonial") (.Site.Params.testimonial.enable) }}
 		{{ partial "testimonial.html" . }}
 	{{ end }}
-
+	
 	{{ partial "footer.html" . }}
 
 </body>
