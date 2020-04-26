@@ -1423,14 +1423,9 @@ Feature Start
     margin: 0px 0px 40px;
     font-size: 15px;
   }
-  #testimonial-container {
-	padding-right: 50px;
-  }
-#instagram {
-padding-right: 30px;
-}
   #testimonial .instagram-media {
 	margin-left: 0px;
+        padding-right: 30px;
   }
  
   /*--
