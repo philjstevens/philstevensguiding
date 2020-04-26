@@ -30,7 +30,9 @@
 		{{ partial "call-to-action.html" . }}
 	{{ end }}
 
-	
+	{{ if and (isset .Site.Params "testimonial") (.Site.Params.testimonial.enable) }}
+		{{ partial "testimonial.html" . }}
+	{{ end }}
 	
 	{{ partial "footer.html" . }}
 

@@ -505,7 +505,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Testimonial Start
 -----------------------*/
 #testimonial-container {
-	padding: 0;
+	padding-right: 20px;
 	margin-bottom: 4rem;
 }
 #instagram {
@@ -1416,6 +1416,7 @@ Feature Start
   padding: 50px 0px 0px 0px;
   background-position: center;
   }
+  
   #call-to-action h4 {
     padding: 0px 0px 20px;
   }
@@ -1423,10 +1424,9 @@ Feature Start
     margin: 0px 0px 40px;
     font-size: 15px;
   }
-  #testimonial .col-md-6 {
-	margin: 0;
-	padding: 0;
-}
+  #testimonial-container {
+	padding-right: 15px;
+  }
   #testimonial .instagram-media {
 	margin-left: 0px;
   }
