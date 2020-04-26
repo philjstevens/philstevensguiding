@@ -1423,6 +1423,10 @@ Feature Start
     margin: 0px 0px 40px;
     font-size: 15px;
   }
+  #testimonial .col-xs-12 {
+    float: none;
+    margin: 0 auto;
+}
   #testimonial .instagram-media {
 	margin-left: 0px;
         padding-right: 30px;
