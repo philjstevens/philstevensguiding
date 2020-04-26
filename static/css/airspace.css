@@ -505,7 +505,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	Testimonial Start
 -----------------------*/
 #testimonial-container {
+	padding: 0;
 	margin-bottom: 4rem;
+}
+#instagram {
 }
 #instagram .section-title {
   padding: 1rem;  margin-bottom: 1rem;
@@ -514,7 +517,7 @@ font header .navbar-default .navbar-nav li a:hover {
  margin-right: 0px;
 }
 #instagram .instagram-media {
- width:78%; width:-webkit-calc(80% - 2px); width:calc(80% - 2px);
+
  background:#FFF; 
  border:0; 
  margin: 1px; 
