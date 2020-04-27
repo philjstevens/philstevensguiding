@@ -510,8 +510,6 @@ font header .navbar-default .navbar-nav li a:hover {
 	padding-right: 20px;
 	margin-bottom: 4rem;
 }
-#instagram {
-}
 #instagram .section-title {
   padding: 1rem;  margin-bottom: 1rem;
   }
@@ -519,7 +517,7 @@ font header .navbar-default .navbar-nav li a:hover {
  margin-right: 0px;
 }
 #instagram .instagram-media {
-
+	width: 78%; width: -webkit-calc(80% - 2px); width: calc(80% - 2px);
  background:#FFF; 
  border:0; 
  margin: 1px; 
@@ -1429,8 +1427,12 @@ Feature Start
   #testimonial-container {
 	padding-right: 15px;
   }
-  #testimonial .instagram-media {
-	margin-left: 0px;
+  #instagram .col-md-6 {
+		margin: 0;
+		padding: 0;
+	}
+  #instagram .instagram-media {
+	  margin-left: 0px;
   }
  
   /*--
