@@ -506,16 +506,13 @@ font header .navbar-default .navbar-nav li a:hover {
 /*---------------------
 	Testimonial Start
 -----------------------*/
-#testimonial-container .d-flex {
-	padding-right: 20px;
+#testimonial-container {
 	margin-bottom: 4rem;
 }
 #instagram .section-title {
   padding: 1rem;  margin-bottom: 1rem;
   }
-#instagram .instagram {
- margin-right: 0px;
-}
+
 #instagram .instagram-media {
 	width: 78%; width: -webkit-calc(80% - 2px); width: calc(80% - 2px);
  background:#FFF; 
@@ -525,13 +522,12 @@ font header .navbar-default .navbar-nav li a:hover {
  min-width: 300px;
  padding-left: 0; 
 }
+#testimonial .col-md-6 {
+	padding-left: 50px;
+}
 #testimonial .section-title {
   padding: 1rem;
   margin-bottom: 3rem;
-}
-#testimonial .section-title h2 {
-  line-height: 27px;
-  color: #5C5C5C;
 }
 #testimonial .testimonial-carousel {
   text-align: center;
@@ -1157,10 +1153,13 @@ px      68    160    252    344    436    528    620    712    */
   #testimonial .section-title {
     padding-top: 30px;
   }
-  #testimonial .instagram {
+  #instagram {
     padding: 0px 0px 20px 0px;
 	margin-left: auto;
   }
+    #testimonial .col-md-6 {
+	padding-left: 15px;
+}
    /*--
 	footer Start 
 --*/
@@ -1434,6 +1433,10 @@ Feature Start
   #instagram .instagram-media {
 	  margin-left: 0px;
   }
+    #testimonial .col-md-6 {
+	padding-left: 15px;
+}
+
  
   /*--
 	content Start 
