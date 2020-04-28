@@ -17,7 +17,6 @@
   </div>
 </footer>
 
-{{ if eq .Params.owl true }}
 <script type="text/javascript">
 function downloadJSAtOnload() {
 var element = document.createElement("script");
@@ -30,6 +29,4 @@ else if (window.attachEvent)
 window.attachEvent("onload", downloadJSAtOnload);
 else window.onload = downloadJSAtOnload;
 </script>
-<link rel="stylesheet" href={{"css/owl.carousel.min.css"| absURL }} />
-{{ end }}
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>

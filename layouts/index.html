@@ -6,7 +6,9 @@
 
 </head>
 <body>
-
+<script>
+  document.body.className = 'fade';
+</script>
 	{{ partial "header.html" . }}
 
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
@@ -33,8 +35,13 @@
 	{{ if and (isset .Site.Params "testimonial") (.Site.Params.testimonial.enable) }}
 		{{ partial "testimonial.html" . }}
 	{{ end }}
-	
+	<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    document.body.className = '';
+  });
+</script>
 	{{ partial "footer.html" . }}
 
 </body>
+
 </html>
