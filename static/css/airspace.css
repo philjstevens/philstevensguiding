@@ -160,9 +160,6 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
-h1 {
-  text-transform: none
-}
 h2 {
   font-size: 28px;
   font-weight: 600;
@@ -325,6 +322,7 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.1;
 }
 #slider .block {
+	opacity:1;
   color: #FFFFFF;
 }
 #slider .block h1 {
