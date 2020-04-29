@@ -9,7 +9,7 @@
 <script>
   document.body.className = 'fade';
 </script>
-	{{ partial "header.html" . }}
+	{{ partialCached "header.html" . }}
 
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
 		{{ partial "slider.html" . }}
@@ -35,13 +35,13 @@
 	{{ if and (isset .Site.Params "testimonial") (.Site.Params.testimonial.enable) }}
 		{{ partial "testimonial.html" . }}
 	{{ end }}
-	<script>
+	
+	{{ partialCached "footer.html" . }}
+<script>
   document.addEventListener("DOMContentLoaded", function(e) {
     document.body.className = '';
   });
 </script>
-	{{ partial "footer.html" . }}
-
 </body>
 
 </html>
