@@ -9,6 +9,8 @@
 <script>
   document.body.className = 'fade';
 </script>
+	{{ partial "onetrust.html" . }}
+	
 	{{ partialCached "header.html" . }}
 
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
@@ -37,6 +39,7 @@
 	{{ end }}
 	
 	{{ partialCached "footer.html" . }}
+	
 <script>
   document.addEventListener("DOMContentLoaded", function(e) {
     document.body.className = '';
