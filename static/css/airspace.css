@@ -248,8 +248,11 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature {
-  background-image: url("/img/carnmoreface1298px.jpg");
+.no-js #feature {
+	background-image: url("/img/carnmoreface1298px.jpg");
+}
+.no-webp #feature {
+	 background-image: url("/img/carnmoreface1298px.jpg");
   background-image: -webkit-image-set(  
     url("/img/carnmoreface1298px.jpg") 1x,  
     url("/img/carnmoreface2596px.jpg") 2x  
@@ -257,7 +260,19 @@ font header .navbar-default .navbar-nav li a:hover {
   background-image: image-set(  
     url("/img/carnmoreface1298px.jpg") 1x,  
     url("/img/carnmoreface2596px.jpg") 2x   
+);}
+.webp #feature {
+	 background-image: url("/img/carnmoreface1298px.webp");
+  background-image: -webkit-image-set(  
+    url("/img/carnmoreface1298px.webp") 1x,  
+    url("/img/carnmoreface2596px.webp") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/carnmoreface1298px.webp") 1x,  
+    url("/img/carnmoreface2596px.webp") 2x   
   );
+}
+#feature {
   background-position: 50% 94px;
   max-width: 100%;
   display: block;
@@ -957,8 +972,10 @@ px      68    160    252    344    436    528    620    712    */
 					Index Start - Flex, Slider and Wrapper CSS in STYLE tag in head
 -----------------------------------------------*/
 
-  
-  #feature {
+ .no-js #feature {
+background-image: url("/img/trimoreface991px.jpg")
+ }
+.no-webp #feature {
   background-image: url("/img/trimoreface991px.jpg");
   background-image: -webkit-image-set(  
     url("/img/trimoreface991px.jpg") 1x,  
@@ -969,6 +986,17 @@ px      68    160    252    344    436    528    620    712    */
     url("/img/trimoreface1982px.jpg") 2x   
   );
   }
+.webp #feature {
+  background-image: url("/img/trimoreface991px.webp");
+  background-image: -webkit-image-set(  
+    url("/img/trimoreface991px.webp") 1x,  
+    url("/img/trimoreface1982px.webp") 2x  
+  );  
+  background-image: image-set(  
+    url("/img/trimoreface991px.webp") 1x,  
+    url("/img/trimoreface1982px.webp") 2x   
+  );
+  }  
  
   /*--
 	content Start 
@@ -1085,9 +1113,12 @@ px      68    160    252    */
  /*-------
 Feature Start
 ---------*/
+.no-js #feature {
+	background-image: url("/img/trimoreface767px.jpg")
+}
 
-#feature {
-    background-image: url("/img/trimoreface767px.jpg");
+.no-webp #feature {
+	    background-image: url("/img/trimoreface767px.jpg");
 	background-image: -webkit-image-set(  
 		url("/img/trimoreface767px.jpg") 1x,  
 		url("/img/trimoreface1534px.jpg") 2x  
@@ -1096,6 +1127,20 @@ Feature Start
 		url("/img/trimoreface767px.jpg") 1x,  
 		url("/img/trimoreface1534px.jpg") 2x  
 	);
+}
+
+.webp #feature {
+	    background-image: url("/img/trimoreface767px.webp");
+	background-image: -webkit-image-set(  
+		url("/img/trimoreface767px.webp") 1x,  
+		url("/img/trimoreface1534px.webp") 2x  
+	);  
+	background-image: image-set(  
+		url("/img/trimoreface767px.webp") 1x,  
+		url("/img/trimoreface1534px.webp") 2x  
+	);
+}
+#feature {
 	background-position: center;
 	padding: 50px 0;
 	margin-left: auto;
