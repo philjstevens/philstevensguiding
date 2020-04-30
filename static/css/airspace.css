@@ -1103,7 +1103,13 @@ background-image: url("/img/trimoreface991px.jpg")
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+.flex-parent {
+	display: initial;
+}
 
+.flex-child {
+	display: initial;
+	} 
  /*---------------------------------------------
 					Index Start - Flex, Slider and Wrapper CSS in STYLE tag in head 
 -----------------------------------------------*/
