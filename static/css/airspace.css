@@ -158,10 +158,6 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
 }
-h2 {
-  font-size: 28px;
-  font-weight: 600;
-}
 h3 {
   font-size: 18px;
   font-weight: 500;
@@ -179,32 +175,9 @@ h5 {
   color: #4A4A4A;
   font-weight: 400;
 }
-p {
-  font-size: 15px;
-  line-height: 28px;
-  color: #4A4A4A;
-  font-weight: 400;
-}
-ul {
-  padding: 1rem;
-  margin: 1rem;
-  list-style: none;
-  color: #4A4A4A;
-}
-a,
-a:active,
-a:focus,
-a:active {
-  text-decoration: none !important;
-}
-.section{
-  padding: 100px 0;
-}
 
 
-.section-title h2 {
-  color: #4A4A4A;
-}
+
 .section-title h3 {
   font-family: 'Volkhov', serif;
   font-style: italic;
@@ -255,32 +228,8 @@ img[src$='#floatright']
     /* whatever else styles you fancy here */
 }
 /*--
-	Header Start
+	Most Header, Slider and Wrapper Styles in <STYLE> tag in HEAD
 --*/
-header {
-  background: #fff;
-}
-header .navbar {
-  margin-bottom: 30px;
-  border: 0;
-}
-header .navbar-brand {
-  padding: 25px 0;
-  max-height: 70px;
-  }
-header .navbar-default {
-  background: none;
-  border: 0px;
-}
-header .navbar-default .navbar-nav {
-  padding-top: 35px;
-}
-header .navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 1.5rem;
-  margin: 0.5rem;
-  font-size: 15px;
-}
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
@@ -290,81 +239,11 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
-#slider {
-  background-image: url("/img/slimslider1298px.jpg");
-  background-image: -webkit-image-set(  
-    url("/img/slimslider1298px.jpg") 1x,  
-    url("/img/slimslider2595px.jpg") 2x  
-  );  
-  background-image: image-set(  
-    url("/img/slimslider1298px.jpg") 1x,  
-    url("/img/slimslider2595px.jpg") 2x   
-  );
-  background-repeat:  no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: right bottom;
-  padding: 180px 0px 150px;
-  position: relative;
-}
-#slider:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to left, #d8d5e8, #b4afc6);
-  opacity: 0.1;
-}
-#slider .block {
-  color: #FFFFFF;
-}
-#slider .block h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 350;
-  font-size: 55px;
-  line-height: 70px;
-  letter-spacing: 3px;
-  padding-bottom: 45px;
-}
-#slider .block h4 {
-  font-size: 28px;
-  line-height: 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
+
 /*--
 	wrapper Start
 --*/
-#wrapper {
-  padding: 50px 0;
-}
-#wrapper .section-title {
-  margin-bottom: 0px;
-}
-#wrapper .section-title p {
-  padding-top: 20px;
-}
-#wrapper .block {
-  color: #4A4A4A
-}
-#wrapper .block h2 {
-  padding: 10px 0px 20px;
-  line-height: 27px;
-  margin: 0;
-}
-#wrapper .block p {
-  padding-top: 20px;
-}
-#wrapper .block img {
-  padding-right: 20px;
-  margin-left: 20px;
-  width: 100%;
-}
+
 
 /*--
 	Feature Start
@@ -1074,38 +953,10 @@ px      68    160    252    344    436    528    620    712    804    896    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.flex-parent {
-	display: initial;
-}
-
   /*---------------------------------------------
-					Index Start 
+					Index Start - Flex, Slider and Wrapper CSS in STYLE tag in head
 -----------------------------------------------*/
-  #slider {
-  background-image: url("/img/trimslider991px.jpg");
-  background-image: -webkit-image-set(  
-    url("/img/trimslider991px.jpg") 1x,  
-    url("/img/trimslider1982px.jpg") 2x  
-  );  
-  background-image: image-set(  
-    url("/img/trimslider991px.jpg") 1x,  
-    url("/img/trimslider1982px.jpg") 2x   
-  );
-  }
-  #wrapper {
-    text-align: center;
-	padding: 0px 0px;
-  }
-  #wrapper .block {
-    margin: 30px;
-	float: center;
-  }
-  #wrapper .block img {
-  
-  
-   max-width:100%;
-   height: auto;
-  }
+
   
   #feature {
   background-image: url("/img/trimoreface991px.jpg");
@@ -1224,69 +1075,14 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
-.flex-parent {
-	display: initial;
-}
 
-.flex-child {
-	display: initial;
-	} 
-img[src$='#center']
-{
-    display: block;
-    margin: 0.7rem auto;
-	max-width: 100%;
-}
  /*---------------------------------------------
-					Index Start 
+					Index Start - Flex, Slider and Wrapper CSS in STYLE tag in head 
 -----------------------------------------------*/
   .heading {
     padding-left: 0px;
   }
-  h2 {
-    font-size: 28px;
-  }
-  p {
-    font-size: 13px;
-  }
-  h5 {
-  }
-  header .navbar-default .navbar-toggle {
-    margin-top: 35px;
-    margin-bottom: 15px;
-  }
-  #slider {
- 	padding: 110px 0px 90px 0px;
-    text-align: center;
-	background-image: url("/img/trimslider767px.jpg");
- 	background-position: bottom;
-  }
-  #slider .block {
-    padding-left: 0px;
-  }
-  #slider .block h1 {
-    font-size: 45px;
-  }
-  #slider .block h4 {
-    font-size: 20px;
-  }
-  /*--
-	wrapper Start 
---*/
-  #wrapper {
-    padding: 0;
-}
-  #wrapper h2 {
-	font-size: 28px;
-}
-  #wrapper .block {
-    text-align: center;
-}
-  #wrapper .block img {
-    padding: 10px 20px 0px;
-    margin: 0px;
-  }
-/*-------
+ /*-------
 Feature Start
 ---------*/
 
