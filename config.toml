@@ -22,29 +22,29 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   [[menu.header]]
     weight = 2
     name = "About Phil"
-    url = "/about"
+    url = "/about/"
   [[menu.header]]
     weight = 3
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
   [[menu.header]]
     weight = 4
     name = "Contact"
-    url = "/contact"
+    url = "/contact/"
  
 
   [[menu.footer]]
     weight = 1
     name = "About Phil"
-    url = "/about"
+    url = "/about/"
   [[menu.footer]]
     weight = 2
     name = "Contact"
-    url = "/contact"
+    url = "/contact/"
   [[menu.footer]]
     weight = 3
     name = "Blog"
-    url = "/blog"
+    url = "/blog/"
  
 
 # The site's parameters
@@ -76,8 +76,8 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   
   [params.blog]
     enable = true
-    title = "The Latest"
-    subtitle = "Adventures, gear and ideas - welcome to the blog"
+    title = "The Blog"
+    subtitle = "Adventures, gear and ideas"
 	
   [params.about]
     enable = true
@@ -95,7 +95,7 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 	paragraph2 = "Phil Stevens Guiding is my small sole-trading business, a one-man band, not an activity centre or a Guides' Bureau or an employer of other guides. So if you book with me, you get... me!"
 	[params.feature.button]
       caption = "More about Phil"
-      url = "/about"
+      url = "/about/"
 
   
   [params.call]
@@ -104,7 +104,7 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
     paragraph = "Rock climbing, scrambling, winter mountaineering, ice climbing..."
 	[params.call.button]
       caption = "Contact Phil"
-      url = "/contact"
+      url = "/contact/"
 
   [params.service]
     enable = true
