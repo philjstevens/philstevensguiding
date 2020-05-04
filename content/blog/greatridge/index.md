@@ -38,7 +38,7 @@ It's important in the mountains to recognise when you've failed. It dawned on me
 
 We looked up. Back on the line of the main ridge, two pitches of Grade III between us and the summit, it was now just a race against the setting sun. Daring to hope, I gunned it up the last 100m, running it out. The reward - a beautiful sunset, with all of Lorne and Lochaber laid out below us.
 
-![Redemption](/media/garbhsummit.jpg#center)
+![Redemption](garbhsummit.jpg#center)
 
 ![Pulling up the ropes](garbhworking.jpg#center)
 

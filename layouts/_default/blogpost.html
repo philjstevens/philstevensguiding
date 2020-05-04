@@ -27,7 +27,7 @@
 	        <div>
 	          <div class="block">
 	            <div class="post-info-wrapper">
-	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></p>
+	              <h3>By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></h3>
 	            </div>
 	            <p>{{ .Content }}</p>
 	          </div>
