@@ -48,7 +48,7 @@ body {
 
 h1 {
 	font-size: 55px;
-	font-weight:500;
+	font-weight:400;
 	letter-spacing: 3px;
 }
 h2 {
@@ -63,7 +63,7 @@ h3 {
 h4 {
   font-size: 28px;
   line-height: 40px;
-  font-weight: 500;
+  font-weight: 400;
 }
 h5 {
   font-size: 18px;
@@ -74,7 +74,7 @@ p {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 20px;
-  font-weight: 400px;
+  font-weight: 500;
 }
 ul{padding:1rem;margin:1rem;list-style:none;color:#4A4A4A}
 a,
@@ -89,29 +89,64 @@ a {
 }
 .section{padding:100px 0}
 img[src$='#center']{display:block;margin:.7rem auto;max-width:100%}
-header{background:#fff}
-header .navbar{margin-bottom:30px;border:0}
-header .navbar-brand{padding:25px 0;max-height:70px}
-header .navbar-default{background:none;border:0}
-header .navbar-default .navbar-nav{padding-top:35px}
-header .navbar-default .navbar-nav li a{padding:1.5rem;margin:.5rem;font-size:16px}
+header{background:#222; color:#fff}
+header .navbar{border:0}
+header .navbar-brand{padding:15px 0px}
+header .partner-image{padding-left:20px;margin-top:25px}
+header .bmg-logo{width:150px}
+header .ami-logo{width:65px}
+header .navbar-default .navbar-toggle .icon-bar {background-color: #fff}
 
+header .navbar-default .navbar-toggle {border:none}
+header .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:focus:after {background-color:#29cc14}
+header .navbar-default{background:none;border:0;margin-bottom:5px}
+header .navbar-default .navbar-nav{padding-top:20px}
+header .navbar-default .navbar-nav li a{color:#fff;padding:1.5rem;margin:.5rem;font-size:18px}
+header .navbar-default .navbar-nav li a:hover {color:#29cc14}
+header .navbar-collapse {padding: 0px}
 
+.social-floating-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social-floating-bar a {
+  display: block;
+  transition: all 0.3s ease;
+  padding: 16px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
 .flex-parent{display:flex}
 .flex-child {display:flex; align-items: center}
+#header-container{padding-left:30px;padding-right:30px}
 .no-js #slider{background-image:url(/img/slider/prophecy1298px.jpg)}.webp #slider{background-image:url(/img/slider/prophecy1298px.webp);background-image:-webkit-image-set(url(/img/slider/prophecy1298px.webp) 1x,url(/img/slider/prophecy2596px.webp) 2x);background-image:image-set(url(/img/slider/prophecy1298px.webp) 1x,url(/img/slider/prophecy2596px.webp) 2x)}.no-webp #slider{background-image:url(/img/slider/prophecy1298px.jpg);background-image:-webkit-image-set(url(/img/slider/prophecy1298px.jpg) 1x,url(/img/slider/prophecy2596px.jpg) 2x);background-image:image-set(url(/img/slider/prophecy1298px.jpg) 1x,url(/img/slider/prophecy2596px.jpg) 2x)}
 #slider{background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:center top;padding:180px 0 150px;position:relative}
 #slider .block{color:#FFF;padding-bottom:100px;margin-top:-100px;}
-#slider .block h4{letter-spacing:2px}
+#slider .logo-box{max-width: 200px;text-align: center;display:block;padding-top:20px;margin-left:auto;margin-right:auto}
+#slider h1{margin:20px 0px 10px 0px}
+#slider h4{letter-spacing:2px}
 
-#wrapper{padding:50px 0}#wrapper .section-title{margin-bottom:0}
-#wrapper .block h2{padding:10px 0 20px;line-height:27px;margin:0}
+#wrapper{padding:50px 0}
+#wrapper .section-title{margin-bottom:0}
+#wrapper .col-md-7 {padding-left: 12px}
+#wrapper .block h2{padding:10px 0;line-height:27px;margin:0}
 #wrapper .block img{padding-right:20px;margin-left:20px;width:100%;padding-top:30px}
 
 @media only screen and (min-width:768px) and (max-width:991px){
 .flex-parent {display: initial;}
+header .navbar-brand{padding-left: 20px}
+header .bmg-logo{width:70px}
+header .navbar-right{margin-right:0px;padding-left:20px;padding-right:0px}
+#header-container{padding: 0px}
+.social-floating-bar a {  padding: 10px; font-size: 18px;}
+.no-js #slider{background-image:url(/img/slider/prophecy991px.jpg)}.webp #slider{background-image:url(/img/slider/prophecy991px.webp);background-image:-webkit-image-set(url(/img/slider/prophecy991px.webp) 1x,url(/img/slider/prophecy2596px.webp) 2x);background-image:image-set(url(/img/slider/prophecy991px.webp) 1x,url(/img/slider/prophecy2596px.webp) 2x)}.no-webp #slider{background-image:url(/img/slider/prophecy991px.jpg);background-image:-webkit-image-set(url(/img/slider/prophecy991px.jpg) 1x,url(/img/slider/prophecy1982px.jpg) 2x);background-image:image-set(url(/img/slider/prophecy991px.jpg) 1x,url(/img/slider/prophecy1982px.jpg) 2x)}
 
-.no-js #slider{background-image:url(/img/slider/prophecy991px.jpg)}.webp #slider{background-image:url(/img/slider/prophecy991px.webp);background-image:-webkit-image-set(url(/img/slider/prophecy991px.webp) 1x,url(/img/slider/prophecy1945px.webp) 2x);background-image:image-set(url(/img/slider/prophecy991px.webp) 1x,url(/img/slider/prophecy1945px.webp) 2x)}.no-webp #slider{background-image:url(/img/slider/prophecy991px.jpg);background-image:-webkit-image-set(url(/img/slider/prophecy991px.jpg) 1x,url(/img/slider/prophecy1945px.jpg) 2x);background-image:image-set(url(/img/slider/prophecy991px.jpg) 1x,url(/img/slider/prophecy1945px.jpg) 2x)}
+#slider .slider-h1-title{text-align: center}
+#slider .logo-box{max-width: 180px;padding-top: 10px}
 #slider h1 {margin-top: 0; margin-bottom:0}
 #slider h4 {margin-top: 10px;}
 #wrapper{text-align:center;padding:0 0}
@@ -121,27 +156,42 @@ header .navbar-default .navbar-nav li a{padding:1.5rem;margin:.5rem;font-size:16
 @media only screen and (max-width:767px){
 .block {margin: 0}
 .flex-parent{display:initial}.flex-child{display:initial}
+header .navbar-brand{max-width:80px}
+header .partner-image{padding-left:20px}
+header .navbar-default .navbar-toggle{margin-top:25px;margin-bottom:15px}
+header .navbar-header{margin-bottom:10px}
 h1{line-height: 50px; font-size:45px; letter-spacing: 2px;}
 h2{line-height: 33px}
 h5{line-height: 24px}
 h4{font-weight: 400; font-size: 24px; line-height: 28px;}
-header .navbar-default .navbar-toggle{margin-top:35px;margin-bottom:15px}
 #slider{padding:110px 0 90px 0;text-align:center}
-#slider .block{margin-top: -110px;margin-left:0;padding-left:0}
+#slider .block{margin-left:auto;padding-left:auto}
+#slider h1{margin-top: 50px}
+#slider .col-xs-6{padding: 0}
 #slider .h4{margin:0;}
 #wrapper {padding-top:30px;text-align:center}
 #wrapper .block h2{padding-bottom: 0;}
 }
 
 @media only screen and (min-width:481px) and (max-width:767px){
+header .bmg-logo{width:70px}
+header .ami-logo{width:60px;padding-left:15px}
 .no-js #slider{background-image:url(/img/slider/prophecy768px.jpg)}.webp #slider{background-image:url(/img/slider/prophecy768px.webp);background-image:-webkit-image-set(url(/img/slider/prophecy768px.webp) 1x,url(/img/slider/prophecy1335px.webp) 2x);background-image:image-set(url(/img/slider/prophecy768px.webp) 1x,url(/img/slider/prophecy1335px.webp) 2x)}.no-webp #slider{background-image:url(/img/slider/prophecy768px.jpg);background-image:-webkit-image-set(url(/img/slider/prophecy768px.jpg) 1x,url(/img/slider/prophecy1335px.jpg) 2x);background-image:image-set(url(/img/slider/prophecy768px.jpg) 1x,url(/img/slider/prophecy1335px.jpg) 2x)}
+#slider .logo-box{max-width: 30vw}
+#slider h4{margin-top: 20px}
 }
 @media only screen and (max-width:480px){
+header .navbar-toggle{margin-right:5px}
+header .navbar-brand{width:70px;margin-top:3px}
+header .bmg-logo{width:60px;padding-left:15px}
+header .ami-logo{width:50px;padding-left:10px}
 .no-js #slider{background-image:url(/img/slider/prophecy480px.jpg)}.webp #slider{background-image:url(/img/slider/prophecy480px.webp);background-image:-webkit-image-set(url(/img/slider/prophecy480px.webp) 1x,url(/img/slider/prophecy960px.webp) 2x);background-image:image-set(url(/img/slider/prophecy480px.webp) 1x,url(/img/slider/prophecy960px.webp) 2x)}.no-webp #slider{background-image:url(/img/slider/prophecy480px.jpg);background-image:-webkit-image-set(url(/img/slider/prophecy480px.jpg) 1x,url(/img/slider/prophecy960px.jpg) 2x);background-image:image-set(url(/img/slider/prophecy480px.jpg) 1x,url(/img/slider/prophecy960px.jpg) 2x)}
+#slider .logo-box{padding-top: 10px;max-width: 40vw}
+#slider h4{margin-top: 20px}
 }
 </style>
-<link rel="stylesheet" rel="preload" href={{"css/airspace.min.css" | absURL }} as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href={{"css/airspace.min.css" | absURL }}></noscript>
+<link rel="stylesheet" rel="preload" href={{"css/airspace.css" | absURL }} as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href={{"css/airspace.css" | absURL }}></noscript>
 <script defer src={{"js/jquery-1.10.2.min.js" | absURL }}></script>
 <script defer src={{"js/bootstrap.console.min.js" | absURL }}></script>
 

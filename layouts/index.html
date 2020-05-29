@@ -11,8 +11,10 @@
 </script>
 	{{ partial "onetrust.html" . }}
 	
-	{{ partialCached "header.html" . }}
-
+	{{ partialCached "index-header.html" . }}
+	
+	{{ partial "social-sidebar.html" . }}
+	
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
 		{{ partial "slider.html" . }}
 	{{ end }}

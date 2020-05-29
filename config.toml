@@ -70,10 +70,7 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.wrapper]
     enable = true
-    title = "Delivering year-round professional mountain guiding and instruction in the West Highlands and beyond"
-    italic = "Whether you'd like to learn how to move safely through technical terrain, want a guide to help you traverse the Skye Cuillin, or are stuck in a rut with your climbing grade and need some coaching, Phil Stevens Guiding can help you achieve your goals in the mountains."
-	paragraph = "I offer bespoke private guiding and instruction, with objectives and content tailored to meet your specific needs - after all, everyone's different. If you'd like to talk more about your aspirations or make a booking, please get in touch with me."
-  
+   
   [params.blog]
     enable = true
     title = "The Blog"
@@ -84,15 +81,21 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 	title = "About Phil"
     subtitle = "An introduction to your guide"
 	intro = "Hello and welcome"
-	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm also a full member of the Association of Mountaineering Instructors."
-	paragraph1 = "I live in North Connel, near the small harbour town of Oban. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in various mountainous places including Wales, Norway and Antarctica - the latter as a Field Guide for the British Antarctic Survey - but Scotland is where I call home."
+	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm midway through the British Mountain Guides training scheme, and am a full member of the Association of Mountaineering Instructors."
+	paragraph1 = "I live in North Connel, near the small harbour town of Oban. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in mountain regions across the world, including Wales, Norway and Antarctica."
 	paragraph2 = "I qualified as a Mountaineering Instructor in 2010, and spent several years working as a climbing instructor at the National Ice Climbing Centre and as a senior instructor at the Outward Bound Trust. Like many freelance guides, when I'm not out with my own clients I also work for a few local reputable guiding companies as an associate instructor."
+	historytitle = "A Brief History"
+	history1 = "I started hillwalking as a kid, but as a teenager my interest shifted to climbing on the small sandstone outcrops that litter the Kent/Sussex border. I have fond memories of a trip into London on the train to buy enough gear to set up top-ropes... In hindsight this was a bit ambitious given my limited knowledge, and it all seemed pretty epic at the time. Suffice to say the learning curve was steep! Since these early forays on rock, it seems like I've barely stopped climbing (or learning) since."
+	history2 = "Climbing trips with friends have now taken me all over the world, and the list of places to visit seems to get longer rather than shorter. I love adventurous places, so I spend a lot of my time climbing on sea cliffs and similar difficult-to-reach places."
+	history3 = "Over the years I've built up a good working knowledge of the majority of climbing areas in the UK. I'm particularly familiar with classic West Highland destinations like Glencoe, the Skye Cuillin and Ben Nevis, but I've also spent lots of time across Scotland, in Wales and down in the South West. If you have a destination in mind and want a guide, get in touch - if I can't help, I will always try to point you towards someone who can."
+	history4 = "Many people know me as 'Chucky' - when I was nine I had a strong resemblance to the Rugrats children's cartoon character... The name stuck, and pretty much everyone calls me Chucky these days - even my girlfriend and several members of my family! That said, if you prefer Phil then I'm happy with that name too."
 	
   [params.feature]
     enable = true
     title = "Phil Stevens"
-	paragraph1 = "I’m a professional mountaineer based near Oban in the West Highlands of Scotland. I am a qualified climbing and mountaineering instructor, and an experienced guide in both summer and winter conditions."
-	paragraph2 = "Phil Stevens Guiding is my small sole-trading business, a one-man band, not an activity centre or a Guides' Bureau or an employer of other guides. So if you book with me, you get... me!"
+	subtitle = "Mountaineering Instructor and Trainee British Mountain Guide"
+	paragraph1 = "I’m a professional mountaineer based near Oban in the West Highlands of Scotland. I've been a Mountaineering and Climbing Instructor for ten years, and am a qualified through the British Mountain Guides to work year-round in the UK, guiding in both summer and winter conditions."
+	paragraph2 = "Phil Stevens Guiding is my small sole-trading business, a one-man band. I'm not an activity centre, a Guides' Bureau or an employer of other guides. So if you book with me, you get... me!"
 	[params.feature.button]
       caption = "More about Phil"
       url = "/about/"
@@ -108,9 +111,9 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.service]
     enable = true
-    title = "COVID-19 - 'The mountains will always be there, the trick is to make sure you are too.'"
-    subtitle1 = "STAY AT HOME - SAVE LIVES. Conditions are frustratingly good on the crags and mountains at the moment, but we all have our part to play in containing the spread of COVID-19."
-	subtitle2 = "Right now we are locked down like everyone else, and aren't out and about in the hills. It won't be forever though! Here are some adventures we could guide you on after the end of lockdown - feel free to contact us for more information."
+    title = "COVID-19 Update"
+    subtitle1 = "Restrictions are beginning to ease in Scotland, but it's still a long road ahead. Phil Stevens Guiding will continue to follow all guidance issued by the Scottish Government, British Mountain Guides and Association of Mountaineering Instructors."
+	subtitle2 = "With this in mind, guiding in Scotland isn't appropriate yet - but we are moving in the right direction. Here are some ideas for adventures I could guide you on soon - feel free to contact me for more information or to talk about dates."
 	
   [params.testimonial]	
     enable = true
@@ -121,17 +124,24 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
     subtitle1 = "Looking for more inspiration?"  
     subtitle2 = "Need professional guidance about the right objective for you?"
 	subtitle3 = "Keen to book and want to know prices? Get in touch!"
+	intro1 = "Given the bespoke nature of high-quality guiding, I believe it's important to have the right information before quoting prices. Please get in touch and let me know what you're looking for - I'll be happy to give advice or to offer a quote at no obligation."
+	intro2 = "Rest assured that while I pride myself on offering a top-quality product, I also believe in giving good value. As result, Phil Stevens Guiding's prices are highly competetive."
 	[params.contact.form]
       name = "Your name"
       email = "Your email"
-      reason = "How can I help?"
-      message = "Your message"
+      reason = "Reason for your enquiry"
+      message = "Further information - for example, your aims/abjectives, the size of your party, when you are looking to book"
       button = "Send message"
     [params.contact.box]
       title = "Contact details"
       address = "5 Lora View, North Connel, Oban, PA37 1RR"
-      email = "Email: info@philstevensguiding.com"
-      phone = "Phone: +44 790 85 89 620"
+      addresslink = "https://www.google.com/maps/place/5+Lora+View,+North+Connel,+Oban+PA37+1RR/@56.4593601,-5.3980494,18z/data=!3m1!4b1!4m5!3m4!1s0x488942bbba325743:0xa5270a86a63e86ac!8m2!3d56.4593601!4d-5.3969524"
+	  email = "info@philstevensguiding.com"
+      phone = "+44(0)790 8589 620"
+    [params.contact.gmap]
+	  enable = true
+
+
    
    [params.thanks]
      enable = true

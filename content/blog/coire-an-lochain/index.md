@@ -1,5 +1,5 @@
 +++
-title = "Third Man V6 and Savage Slit V6"
+title = "Third Man V 6 and Savage Slit V 6"
 date = 2018-11-23
 subtitle = "A quick-hit winter climbing trip out east to Coire an Lochain, Cairngorms"
 tags = ["winter climbing", "climbing", "scottishwinterclimbing"]

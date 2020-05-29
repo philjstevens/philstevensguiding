@@ -1,5 +1,5 @@
 +++
-title = "Gargoyle Wall VI6"
+title = "Gargoyle Wall VI 6"
 date = 2018-11-05T22:22:25Z
 subtitle = "Winter gets off to a great start, with brilliant mixed conditions on the Ben"
 tags = ["winter climbing", "climbing", "scottishwinterclimbing"]

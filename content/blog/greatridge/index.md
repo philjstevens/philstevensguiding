@@ -1,7 +1,7 @@
 +++
 title = "Great Ridge, Garbh Bheinn III"
 date = 2019-02-03
-subtitle = "Powder wallowing in a wild-feeling place"
+subtitle = "Powder wallowing and adventurous questing in a wild-feeling place"
 tags = ["winter climbing", "climbing", "scottishwinterclimbing"]
 categories = ["climbs"]
 author = "Phil Stevens"

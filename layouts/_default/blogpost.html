@@ -7,6 +7,7 @@
 
 	{{ partial "header.html" . }}
 
+	{{ partial "social-sidebar.html" . }}
 <!-- banner Start -->
 <section id="blogpost-header">
   <div class="container" style="background:url(' {{ .Params.header_image }} ') ; background-size:cover; padding-top: 200px; padding-bottom: 157px; background-attachment:fixed; background-position:center;">
@@ -19,12 +20,12 @@
     </div>
   </div>
 </section>
-	<div class="post" style="padding-top:30px; margin:10px;">
+	<div>
 	  <!-- Wrapper Start -->
 	  <section id="blogpost-intro">
 	    <div class="container">
 	      <div class="row">
-	        <div>
+	        <div class="post-body">
 	          <div class="block">
 	            <div class="post-info-wrapper">
 	              <h3>By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></h3>

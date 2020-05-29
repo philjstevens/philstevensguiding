@@ -2,11 +2,16 @@
 <section id="slider">
 	<div class="container">
        <div class="row">
-           	   <div class="col-md-10 col-md-offset-1">
-               <div class="block">
+           	<div class="col-md-10 col-md-offset-1">
+               <div class="block slider-h1-title">
                    <h1 class="animated fadeIn">{{ .Site.Params.slider.title | safeHTML }}</h1>
-                   <h4 class="animated fadeIn">{{ .Site.Params.slider.subtitle | safeHTML }}</h4>
-               </div>
+                   </div></div>
+				   <div class="col-sm-6 col-md-3 col-md-offset-1 block">
+				   <div class="logo-box"><img style="max-width:100%; text-align: center" src="/img/logos/blugrntranswht.png" alt="logo"></div>
+				   </div>
+				   <div class="col-sm-6 col-md-7 block">
+				   <h4 class="animated fadeIn">{{ .Site.Params.slider.subtitle | safeHTML }}</h4>
+               </div></div>
            </div>
 	   </div>
 	</div>

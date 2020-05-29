@@ -17,25 +17,31 @@
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
-    <div class="row">
-      <form action="https://formspree.io/phil.stevens66@gmail.com" method="POST">
+    <div class="row" id="contact-intro1">
+	<h5>{{ .intro1}}</h5>
+	</div>
+  <div class="row">
+      <form name="contact" method="POST" data-netlify="true">
 	  <div class="col-md-6 col-sm-12">
         <div class="block">
             <div class="form-group">
-              <input type="text" name="Name" class="form-control" placeholder="Your Name">
+              <input type="text" name="Name" class="form-control" placeholder="Your name">
             </div>
             <div class="form-group">
-              <input type="text" name="_replyto" class="form-control" placeholder="Your Email">
+              <input type="text" name="_replyto" class="form-control" placeholder="Your email">
+            </div>
+			<div class="form-group">
+              <input type="text" name="tel" class="form-control" placeholder="Your telephone number">
             </div>
             <div class="form-group">
-			  <textarea name="_subject" class="form-control" rows="2" placeholder="Subject"></textarea>
+			  <textarea name="subject" class="form-control" rows="2" placeholder="Reason for your enquiry"></textarea>
             </div>
          </div>
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="block">
             <div class="form-group">
-              <textarea name="Message" class="form-control" rows="6" placeholder="Your message"></textarea>
+              <textarea name="Message" class="form-control" rows="6" placeholder="Further information - for example, your aims/abjectives, the size of your party, when you are looking to book"></textarea>
             </div>
             <div class="form-group">
 				<button class="btn btn-default" type="submit">{{ .form.button }}</button>
@@ -45,37 +51,55 @@
       </div>
 	  </form>
     </div>
-    <div id="contact-box" class="row">
-      <div class="col-md-6 col-sm-12">
+    <div class="row contact-lower-page" style="overflow:hidden">
+      <div class="contact-box col-md-6 col-sm-12">
         <div class="block">
 
           <h3>{{ .box.title }}</h3>
-          <ul class="address-block">
-            <li>
-              <i class="fa fa-map-marker"></i>{{ .box.address }}
-            </li>
-            <li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email }}
-            </li>
-            <li>
-              <i class="fa fa-phone"></i>{{ .box.phone }}
-            </li>
-          </ul>
-          <ul class="social-icons">
-          {{ range .social }}  
-            <li>
-              <a href="{{ .url }}"><i class="fa {{ .icon }}"></i></a>
-            </li>
-          {{ end }}
-          </ul>
-        </div>
+          <div class="address-block" style="width:100%">
+			<div class="contact-details-row">
+			<div class="col-xs-1">
+			<a class="contact-btn social-btn-location" rel="noopener" href="{{ .box.addresslink }}" target="_blank">
+			<i class="ion-android-pin"></i></a>
+			</div>
+			<div class="col contact-details">
+			<a rel="noopener" href="{{ .box.addresslink }}" target="_blank">{{ .box.address }}</a>
+			</div>
+			</div>
+			<div class="contact-details-row">
+			<div class="col-xs-1">
+			<a class="contact-btn social-btn-mail" rel="noopener" href="mailto:info@philstevensguiding.com" target="_blank">
+			<i class="ion-email"></i></a>
+			</div>
+			<div class="col contact-details">
+			<a rel="noopener" href="mailto:info@philstevensguiding.com" target="_blank">{{ .box.email }}</a>
+			</div>
+			</div>
+			<div class="contact-details-row">
+			<div class="col-xs-1">
+			<a class="contact-btn social-btn-call" rel="noopener" href="tel:00447908589620" target="_blank">
+			<i class="ion-ios-telephone"></i></a>
+			</div>
+			<div class="col contact-details">
+			<a rel="noopener" href="tel:00447908589620" target="_blank">{{ .box.phone }}</a>
+			</div>
+			</div>
+			</div>
+			<div class="contact-social-container">
+			<div class="contact-social-col col-md-6"><a class="contact-social-btn contact-btn-facebook" rel="noopener" href="https://www.facebook.com/philstevensguiding/about/" target="_blank">
+				<span>Find us on </span><img class="facebook-logo" src="/img/logos/facebook-comp.png" alt="facebook"></a>
+			</div>
+			<div class="contact-social-col col-md-6"><a class="contact-social-btn contact-btn-instagram" rel="noopener" href="https://www.instagram.com/philjstevens/?utm_source=ig_embed" target="_blank">
+				<span>@philjstevens on </span><img class="instagram-logo" src="/img/logos/instagram-comp.png" alt="instragram-logo"></a></li>
+		  </div>
+		  </div>
+		 </div>
       </div>
       <div class="col-md-6 col-sm-12">
-        {{ with .gmaps}}
-        <div class="block">
-          <h2>{{ .title }}</h2>
-            <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472979439986!2d-73.97769068489596!3d40.7516207793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590247c56379%3A0x15e13bea38b43e18!2sChrysler+Building!5e0!3m2!1sen!2sus!4v1477406538220" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        {{ with .gmap}}
+        <div class="block g-map">
+            <div class="embed-responsive embed-responsive-16by9 google-map">
+                <iframe class="embed-responsive-item" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4447538.276072549!2d-9.957629810430594!3d57.02330552989815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40095fdd75d20072!2sPhil%20Stevens%20Guiding!5e0!3m2!1sen!2suk!4v1589821821832!5m2!1sen!2suk" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
         {{ end }}
