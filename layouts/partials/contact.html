@@ -46,10 +46,12 @@
             <div class="form-group">
               <textarea name="Message" class="form-control" rows="6" placeholder="Further information - for example, your aims/abjectives, the size of your party, when you are looking to book"></textarea>
             </div>
-            <div data-netlify-recaptcha="true"></div>
+            <div class="col-md-3 col-sm-12">
+			<div class="form-group" data-netlify-recaptcha="true"></div></div>
+			<div class="col-md-3 col-sm-12">
 			<div class="form-group">
 				<button class="btn btn-default" type="submit">{{ .form.button }}</button>
-			</div>
+			</div></div>
         </div>
       </div>
 	  </form>
