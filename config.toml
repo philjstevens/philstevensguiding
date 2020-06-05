@@ -147,4 +147,12 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
      enable = true
 	 title = "Thanks for your Enquiry!"
 	 subtitle = "I'll get back to you as soon as possible."
- 
+     linktext = "Back to the homepage"
+	 paragraph = "I always respond to enquiries as quickly as I can. Due to the range of locations I work in, some of which have little or no internet connectivity, this can occasionally take a little longer than I'd like - please bear with me if this is the case."
+
+ [params.notfound]
+     enable = true
+	 title = "Oops, I think you've gone off-route mate..."
+	 subtitle = "The page you're looking for can't be found - please check the address or use the menu to navigate."
+     linktext = "Back to the homepage"
+	 paragraph = "If you think you've found a broken link within the site, please let me know through the contact form so I can fix it."

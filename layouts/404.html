@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{ .Site.Params.notfound.title }}</h1>
+          <h4>{{ .Site.Params.notfound.subtitle }}</h4>
+          <a class="link-h4" href="{{ $.Site.BaseURL }}">{{ .Site.Params.notfound.linktext }}</a>
+		</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="notfound">
+<div class="container">
+    <div class="row">
+        <div class="block">
+          <div>
+			<h5>{{ .Site.Params.notfound.paragraph }}<h5>
+	      </div>
+        </div>
+    </div>
+</div>
+</section>
