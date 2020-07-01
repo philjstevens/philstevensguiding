@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<html>
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+
+	{{ partial "header.html" . }}
+	
 <section id="global-header">
   <div class="container">
     <div class="row">
@@ -6,13 +14,13 @@
         <div class="block">
           <h1>{{ .Site.Params.notfound.title }}</h1>
           <h4>{{ .Site.Params.notfound.subtitle }}</h4>
-          <a class="link-h4" href="{{ $.Site.BaseURL }}">{{ .Site.Params.notfound.linktext }}</a>
+          <a class="btn btn-default btn-call-to-action" href=".BaseURL" >{{ .Site.Params.notfound.caption }}</a>
 		</div>
       </div>
     </div>
   </div>
 </section>
-<section id="notfound">
+<section id="404">
 <div class="container">
     <div class="row">
         <div class="block">
@@ -23,3 +31,13 @@
     </div>
 </div>
 </section>
+
+	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+		{{ partial "call-to-action.html" . }}
+	{{ end }}
+
+	{{ partial "footer.html" . }}
+
+	
+</body>
+</html>
