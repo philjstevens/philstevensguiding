@@ -58,7 +58,9 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   home = "Home"
 
-  
+  description = "Aspirant British Mountain Guide and Mountaineering Instructor"
+  images = ["img/logos/psg-fb601x316.png"]
+  title = "Phil Stevens Guiding"  
 
 	
   [params.slider]
@@ -155,3 +157,7 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 	 subtitle = "The page you're looking for can't be found - please check the address or use the menu to navigate."
  	 paragraph = "If you think you've found a broken link within the site, please let me know through the contact form so I can fix it."
 	 caption = "Return to homepage"
+	 
+[taxononmies]
+
+	series = "series"
