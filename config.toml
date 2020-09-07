@@ -58,12 +58,6 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   home = "Home"
 
-  title = "Phil Stevens Guiding"
-  description = "Aspirant BMG Guide and Mountaineering Instructor"
-  images = ["https://www.philstevensguiding.com/logos/psg-fb601x316.png"]
-    
-
-	
   [params.slider]
     enable = true
     title = "Phil Stevens Guiding"
