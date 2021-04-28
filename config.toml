@@ -98,8 +98,8 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   
   [params.call]
     enable = true
-    title = "Professional mountain guiding and instruction on the West Coast of Scotland."
-    paragraph = "Rock climbing, scrambling, winter mountaineering, ice climbing..."
+    title = "Professional mountain guiding and instruction"
+    paragraph = "Rock climbing, scrambling, winter mountaineering, ski touring, ice climbing..."
 	[params.call.button]
       caption = "Contact Phil"
       url = "/contact/"
