@@ -76,21 +76,21 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 	title = "About Phil"
     subtitle = "An introduction to your guide"
 	intro = "Hello and welcome"
-	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm midway through the British Mountain Guides training scheme, and am a full member of the Association of Mountaineering Instructors."
-	paragraph1 = "I live in North Connel, near the small harbour town of Oban. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in mountain regions across the world, including Wales, Norway and Antarctica."
+	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm nearing completion of the British Mountain Guides training scheme, and am a full member of the Association of Mountaineering Instructors."
+	paragraph1 = "I live in Tromsø, Northern Norway, with my partner Emily. Previously we stayed for several years near the small harbour town of Oban, Scotland. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in mountain regions across the world, including Wales, Norway and Antarctica."
 	paragraph2 = "I qualified as a Mountaineering Instructor in 2010, and spent several years working as a climbing instructor at the National Ice Climbing Centre and as a senior instructor at the Outward Bound Trust. Like many freelance guides, when I'm not out with my own clients I also work for a few local reputable guiding companies as an associate instructor."
 	historytitle = "A Brief History"
 	history1 = "I started hillwalking as a kid, but as a teenager my interest shifted to climbing on the small sandstone outcrops that litter the Kent/Sussex border. I have fond memories of a trip into London on the train to buy enough gear to set up top-ropes... In hindsight this was a bit ambitious given my limited knowledge, and it all seemed pretty epic at the time. Suffice to say the learning curve was steep! Since these early forays on rock, it seems like I've barely stopped climbing (or learning) since."
 	history2 = "Climbing trips with friends have now taken me all over the world, and the list of places to visit seems to get longer rather than shorter. I love adventurous places, so I spend a lot of my time climbing on sea cliffs and similar difficult-to-reach places."
-	history3 = "Over the years I've built up a good working knowledge of the majority of climbing areas in the UK. I'm particularly familiar with classic West Highland destinations like Glencoe, the Skye Cuillin and Ben Nevis, but I've also spent lots of time across Scotland, in Wales and down in the South West. If you have a destination in mind and want a guide, get in touch - if I can't help, I will always try to point you towards someone who can."
+	history3 = "Over the years I built up a good working knowledge of many popular climbing and skiing destinations. I'm currently building my knowledge of Arctic Norway, and I count the West of Scotland, the European Alps and the Antarctic Peninsula as other parts of the world where I have detailed knowledge and experience. It's always good to expand on this, so if you have a destination in mind and want a guide, get in touch - if I can't help, I will always try to point you towards someone who can."
 	history4 = "Many people know me as 'Chucky' - when I was nine I had a strong resemblance to the Rugrats children's cartoon character... The name stuck, and pretty much everyone calls me Chucky these days - even my girlfriend and several members of my family! That said, if you prefer Phil then I'm happy with that name too."
 	
   [params.feature]
     enable = true
     title = "Phil Stevens"
-	subtitle = "Mountaineering Instructor and Trainee British Mountain Guide"
-	paragraph1 = "I’m a professional mountaineer based near Oban in the West Highlands of Scotland. I've been a Mountaineering and Climbing Instructor for ten years, and am a qualified through the British Mountain Guides to work year-round in the UK, guiding in both summer and winter conditions."
-	paragraph2 = "Phil Stevens Guiding is my small sole-trading business, a one-man band. I'm not an activity centre, a Guides' Bureau or an employer of other guides. So if you book with me, you get... me!"
+	subtitle = "Mountaineering Instructor and Aspirant British Mountain Guide"
+	paragraph1 = "I’m a professional mountaineer, now based in Tromsø, Arctic Norway. I've also got strong ties near Oban in the West Highlands of Scotland. I've been a Mountaineering and Climbing Instructor for over a decade, and am an Aspirant IFMGA mountain guide through the British Mountain Guides scheme. Arctic Norway, the UK, the European Alps and Antarctica are the places I know best,  but I'm always learning and exploring."
+	paragraph2 = "Phil Stevens Guiding is about finding clients who would like to build a longer-term, highly personalised guiding relationship. I believe you get a better guided experience when you choose a guide who knows what you've done, what you are capable of, and what inspires you in the mountains. Planning on just one day with me? No problem at all, you're very welcome - but I hope I can give you a mountain experience that makes you want to come back for more!"
 	[params.feature.button]
       caption = "More about Phil"
       url = "/about/"
@@ -106,9 +106,9 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 
   [params.service]
     enable = true
-    title = "COVID-19 Update"
-    subtitle1 = "Phil Stevens Guiding will continue to follow all guidance issued by the Scottish Government, British Mountain Guides and Association of Mountaineering Instructors regarding the Coronavirus pandemic."
-	subtitle2 = "I'm gearing up ready to resume guiding from the 15th of July. Here are some ideas for adventures I could guide you on - feel free to contact me for more information or to talk about making a booking."
+    title = "Adventures in the Mountains"
+    subtitle1 = "Take a look at some of what I can offer from my base on the West Coast of Scotland. Watch this space for more international options, coming soon."
+	subtitle2 = "This year, travel is still something of a sticking point. I'm intending to be in Norway until July, when I will relocate to the European Alps for the summer. Feel free to contact me for more information about options, or to talk about making a booking."
 	
   [params.testimonial]	
     enable = true
