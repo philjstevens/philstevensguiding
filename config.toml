@@ -61,7 +61,7 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   [params.slider]
     enable = true
     title = "Phil Stevens Guiding"
-    subtitle = "Climbing<br/>Scrambling<br/>Mountaineering"
+    subtitle = "Rock<br/>Ice<br/>Snow"
 
   [params.wrapper]
     enable = true
