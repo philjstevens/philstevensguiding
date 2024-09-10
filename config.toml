@@ -107,8 +107,8 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
   [params.service]
     enable = true
     title = "Adventures in the Mountains"
-    subtitle1 = "Take a look at some of what I can offer from my base on the West Coast of Scotland. Watch this space for more international options, coming soon."
-	subtitle2 = "This year, travel is still something of a sticking point. I'm intending to be in Norway until July, when I will relocate to the European Alps for the summer. Feel free to contact me for more information about options, or to talk about making a booking."
+    subtitle1 = "Take a look at some of what I can offer."
+	subtitle2 = "I have a new website coming soon, spotlighting my mountain guiding overseas. If you're looking for something closer to home, here's some food for thought."
 	
   [params.testimonial]	
     enable = true
