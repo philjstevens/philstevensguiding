@@ -76,21 +76,21 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
 	title = "About Phil"
     subtitle = "An introduction to your guide"
 	intro = "Hello and welcome"
-	italic = "I'm a professional mountaineer based in the West Highlands of Scotland, working full-time in the mountains as a guide and instructor. I'm nearing completion of the British Mountain Guides training scheme, and am a full member of the Association of Mountaineering Instructors."
-	paragraph1 = "I live in Tromsø, Northern Norway, with my partner Emily. Previously we stayed for several years near the small harbour town of Oban, Scotland. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in mountain regions across the world, including Wales, Norway and Antarctica."
-	paragraph2 = "I qualified as a Mountaineering Instructor in 2010, and spent several years working as a climbing instructor at the National Ice Climbing Centre and as a senior instructor at the Outward Bound Trust. Like many freelance guides, when I'm not out with my own clients I also work for a few local reputable guiding companies as an associate instructor."
+	italic = "I'm a professional mountaineer and IFMGA guide based in Tromsø, Northern Norway, working full-time in the mountains as a guide and instructor. I'm a NORTIND tindevegleder, an Associate member of the British Association of Mountain Guides, and a Pro member of the American Avalanche Association."
+	paragraph1 = "I live in Tromsø, Northern Norway, with my partner Emily. Previously we stayed for several years near the small harbour town of Oban, Scotland. I escaped the bustle of South East England in 2007, moving to Scotland to begin a career in the outdoors. I've since lived and worked in mountain regions across the world, including the Alps, Norway and Antarctica."
+	paragraph2 = "I qualified as a Mountaineering Instructor in 2010, and spent several years working as a climbing instructor at the National Ice Climbing Centre and as a senior instructor at the Outward Bound Trust. Becoming an IFMGA guide was never part of the original plan, but at some point it became almost an obsession! I was proud to complete my training at the beginning of 2023, earning the coveted IFMGA carnet through the British training scheme. When I'm not out with my own clients I also work for a few local reputable guiding companies as an associate instructor."
 	historytitle = "A Brief History"
 	history1 = "I started hillwalking as a kid, but as a teenager my interest shifted to climbing on the small sandstone outcrops that litter the Kent/Sussex border. I have fond memories of a trip into London on the train to buy enough gear to set up top-ropes... In hindsight this was a bit ambitious given my limited knowledge, and it all seemed pretty epic at the time. Suffice to say the learning curve was steep! Since these early forays on rock, it seems like I've barely stopped climbing (or learning) since."
 	history2 = "Climbing trips with friends have now taken me all over the world, and the list of places to visit seems to get longer rather than shorter. I love adventurous places, so I spend a lot of my time climbing on sea cliffs and similar difficult-to-reach places."
-	history3 = "Over the years I built up a good working knowledge of many popular climbing and skiing destinations. I'm currently building my knowledge of Arctic Norway, and I count the West of Scotland, the European Alps and the Antarctic Peninsula as other parts of the world where I have detailed knowledge and experience. It's always good to expand on this, so if you have a destination in mind and want a guide, get in touch - if I can't help, I will always try to point you towards someone who can."
-	history4 = "Many people know me as 'Chucky' - when I was nine I had a strong resemblance to the Rugrats children's cartoon character... The name stuck, and pretty much everyone calls me Chucky these days - even my girlfriend and several members of my family! That said, if you prefer Phil then I'm happy with that name too."
+	history3 = "Over the years I built up a good working knowledge of many popular climbing and skiing destinations... but it's always good to expand on the areas I 'know', so if you have a destination in mind and want a guide, get in touch - if I can't help, I will always try to point you towards someone who can."
+	history4 = "Many people know me as 'Chucky' - when I was nine I had a strong resemblance to the Rugrats children's cartoon character... The name stuck, but if you prefer Phil then I'm happy with that name too!"
 	
   [params.feature]
     enable = true
     title = "Phil Stevens"
-	subtitle = "Mountaineering Instructor and Aspirant British Mountain Guide"
-	paragraph1 = "I’m a professional mountaineer, now based in Tromsø, Arctic Norway. I've also got strong ties near Oban in the West Highlands of Scotland. I've been a Mountaineering and Climbing Instructor for over a decade, and am an Aspirant IFMGA mountain guide through the British Mountain Guides scheme. Arctic Norway, the UK, the European Alps and Antarctica are the places I know best,  but I'm always learning and exploring."
-	paragraph2 = "Phil Stevens Guiding is about finding clients who would like to build a longer-term, highly personalised guiding relationship. I believe you get a better guided experience when you choose a guide who knows what you've done, what you are capable of, and what inspires you in the mountains. Planning on just one day with me? No problem at all, you're very welcome - but I hope I can give you a mountain experience that makes you want to come back for more!"
+	subtitle = "IFMGA Mountain Guide and Mountaineering Instructor"
+	paragraph1 = "I’m a professional mountaineer, now based in Tromsø, Arctic Norway. I've also got strong ties near Oban in the West Highlands of Scotland. I've been a Mountaineering and Climbing Instructor since 2010, and qualified as an IFMGA mountain guide through the British Mountain Guides scheme. Arctic Norway, the UK, the European Alps and Antarctica are the places I know best,  but I'm always learning and exploring."
+	paragraph2 = "'Phil Stevens Guiding' is about finding clients who would like to build a longer-term, highly personalised guiding relationship. I believe you get a better guided experience when you choose a guide who knows what you've done, what you are capable of, and what inspires you in the mountains. Planning on just one day with me? No problem at all, you're very welcome - but I hope I can give you a mountain experience that makes you want to come back for more!"
 	[params.feature.button]
       caption = "More about Phil"
       url = "/about/"
@@ -129,10 +129,10 @@ inst_access = "4743511319.1677ed0.e10f14134c984a0d88bbbaa795b5d5b0"
       button = "Send message"
     [params.contact.box]
       title = "Contact details"
-      address = "5 Lora View, North Connel, Oban, PA37 1RR"
-      addresslink = "https://www.google.com/maps/place/5+Lora+View,+North+Connel,+Oban+PA37+1RR/@56.4593601,-5.3980494,18z/data=!3m1!4b1!4m5!3m4!1s0x488942bbba325743:0xa5270a86a63e86ac!8m2!3d56.4593601!4d-5.3969524"
+      address = "Kråkebollevegen 56, Kvaløya, Tromsø, Norway"
+      addresslink = "https://maps.app.goo.gl/z5YP4QcXuvrRdfez8"
 	  email = "info@philstevensguiding.com"
-      phone = "+44(0)790 8589 620"
+      phone = "+44(0)7474817841"
     [params.contact.gmap]
 	  enable = true
 
